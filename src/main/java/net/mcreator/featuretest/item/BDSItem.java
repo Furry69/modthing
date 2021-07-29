@@ -1,12 +1,20 @@
 
 package net.mcreator.featuretest.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.featuretest.FeatureTest01ModElements;
+
 @FeatureTest01ModElements.ModElement.Tag
 public class BDSItem extends FeatureTest01ModElements.ModElement {
-
 	@ObjectHolder("feature_test_01:bds")
 	public static final Item block = null;
-
 	public BDSItem(FeatureTest01ModElements instance) {
 		super(instance, 27);
 	}
@@ -38,8 +46,6 @@ public class BDSItem extends FeatureTest01ModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -1.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("bds"));
 	}
-
 }
