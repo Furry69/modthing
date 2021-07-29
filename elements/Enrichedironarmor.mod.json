@@ -47,7 +47,7 @@
     "toughness": 3.5,
     "knockbackResistance": 0.5,
     "equipSound": {
-      "value": "block.anvil.place"
+      "value": "block.respawn_anchor.charge"
     },
     "repairItems": [
       {
