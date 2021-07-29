@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "feature_test_01:blocks/bloodwood_planks",
+    "particle": "feature_test_01:blocks/bloodwood_planks"
+  }
+}
