@@ -37,7 +37,7 @@ public class EridiumeffectPotion extends FeatureTest01ModElements.ModElement {
 		public EffectCustom() {
 			super(EffectType.HARMFUL, -65281);
 			setRegistryName("eridiumeffect");
-			potionIcon = new ResourceLocation("feature_test_01:textures/eridium_effect.png");
+			potionIcon = new ResourceLocation("feature_test_01:textures/gayum_ingot.png");
 		}
 
 		@Override
