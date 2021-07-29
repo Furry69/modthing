@@ -76,7 +76,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iceenemy_01"
+      "registry_name": "iceenemy_01",
+      "path": "~/Mobs"
     },
     {
       "name": "Testloottable02",
@@ -103,7 +104,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Symphonicbeatingstick",
@@ -216,7 +218,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Meterials"
     },
     {
       "name": "Enrichedironrod",
@@ -283,7 +286,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironthrowable",
@@ -322,7 +326,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironjavelinrecipie",
@@ -371,7 +376,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Boomjavelinrecipie",
@@ -407,8 +413,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "splintereffect",
-      "path": "~/Meterials"
+      "registry_name": "splintereffect"
     },
     {
       "name": "GemdustLivingEntityIsHitWithItem",
@@ -429,7 +434,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Meterials"
     },
     {
       "name": "Gemdust",
@@ -539,7 +545,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_axe_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlized_gold_toolsPickaxeRecipe",
@@ -549,7 +555,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_pickaxe_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlized_gold_toolsShovelRecipe",
@@ -559,7 +565,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_shovel_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "BDSLivingEntityIsHitWithTool",
@@ -652,8 +658,8 @@
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
+      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.eridium": "Eridium",
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
