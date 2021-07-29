@@ -18,6 +18,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.SpawnEggItem;
@@ -33,6 +34,7 @@ import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.ai.goal.FollowParentGoal;
 import net.minecraft.entity.ai.goal.BreedGoal;
+import net.minecraft.entity.ai.controller.FlyingMovementController;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.SpawnReason;
@@ -45,6 +47,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.featuretest.procedures.TurkeyEntityFallsProcedure;
 import net.mcreator.featuretest.entity.renderer.TurkeyRenderer;
@@ -102,11 +105,12 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 1);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 4);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 5);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 1);
+			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 1);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -121,6 +125,8 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			experienceValue = 2;
 			setNoAI(false);
 			enablePersistence();
+			this.moveController = new FlyingMovementController(this, 10, true);
+			this.navigator = new FlyingPathNavigator(this, this.world);
 		}
 
 		@Override
@@ -176,7 +182,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 				$_dependencies.put("entity", entity);
 				TurkeyEntityFallsProcedure.executeProcedure($_dependencies);
 			}
-			return super.onLivingFall(l, d);
+			return false;
 		}
 
 		@Override
@@ -207,6 +213,20 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			if (new ItemStack(Items.BEETROOT_SEEDS, (int) (1)).getItem() == stack.getItem())
 				return true;
 			return false;
+		}
+
+		@Override
+		protected void updateFallState(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
+		}
+
+		@Override
+		public void setNoGravity(boolean ignored) {
+			super.setNoGravity(true);
+		}
+
+		public void livingTick() {
+			super.livingTick();
+			this.setNoGravity(true);
 		}
 	}
 }
