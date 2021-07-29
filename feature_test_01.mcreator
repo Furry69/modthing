@@ -687,7 +687,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cookedturkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkeyFoodEaten",
@@ -705,7 +705,7 @@
           }
         ]
       },
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkey",
@@ -715,7 +715,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_turkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "Cookingturkey",
@@ -834,11 +834,14 @@
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
       "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
       "item.feature_test_01.crystlizedgoldarmor_armor_leggings": "Crystlized gold Leggings",
+      "item.feature_test_01.enrichedironarmor_boots": "Crystlized gold Boots",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
+      "item.feature_test_01.enrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
       "item.feature_test_01.crystlizedgoldarmor_armor_helmet": "Crystlized gold Helmet",
+      "item.feature_test_01.enrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
@@ -848,6 +851,7 @@
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
       "entity.feature_test_01.turkey": "Turkey",
+      "item.feature_test_01.raw_bacon": "Raw Bacon",
       "item.feature_test_01.crystlizedgoldarmor_armor_chestplate": "Crystlized gold Chestplate",
       "item.feature_test_01.raw_turkey": "Raw Turkey",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
@@ -864,6 +868,7 @@
       "item.feature_test_01.crystlizedgoldarmor_armor_boots": "Crystlized gold Boots",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
       "item.feature_test_01.cooked_bacon": "Cooked Bacon",
+      "item.feature_test_01.enrichedironarmor_helmet": "Crystlized gold Helmet",
       "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
       "item.feature_test_01.cookedturkey": "Cooked Turkey"
     }
