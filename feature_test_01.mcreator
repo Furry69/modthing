@@ -660,7 +660,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Mobs"
     },
     {
       "name": "CrystlizedgoldarmorArmor",
@@ -686,6 +687,34 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cookedturkey",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "RawTurkeyFoodEaten",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_turkey_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Meterials"
+    },
+    {
+      "name": "RawTurkey",
+      "type": "food",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_turkey",
       "path": "~/Meterials"
     }
   ],
@@ -746,6 +775,7 @@
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
       "entity.feature_test_01.turkey": "Turkey",
       "item.feature_test_01.crystlizedgoldarmor_armor_chestplate": "Crystlized gold Chestplate",
+      "item.feature_test_01.raw_turkey": "Raw Turkey",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
       "effect.splintereffect": "Splinter_effect",
       "item.minecraft.potion.effect.eridiumeffect": "Eridiumeffect",
