@@ -42,17 +42,17 @@ public class CrystlizedgoldarmorArmorItem extends FeatureTest01ModElements.ModEl
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 8, 3}[slot.getIndex()];
+				return new int[]{4, 7, 9, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 20;
+				return 16;
 			}
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.place"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.respawn_anchor.charge"));
 			}
 
 			@Override
