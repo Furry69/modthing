@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "enriched_iron_helm_img",
+    "enableBody": true,
+    "textureBody": "enriched_iron_chestplate_img",
+    "enableLeggings": true,
+    "textureLeggings": "enriched_iron_leggings_img",
+    "enableBoots": true,
+    "textureBoots": "enriched_iron_boots_img",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "crystlizedgoldarmor",
+    "helmetName": "Crystlized gold Helmet",
+    "bodyName": "Crystlized gold Chestplate",
+    "leggingsName": "Crystlized gold Leggings",
+    "bootsName": "Crystlized gold Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 35,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 20,
+    "toughness": 3.5,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "block.anvil.place"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Crystlizedgoldingot"
+      }
+    ]
+  }
+}
