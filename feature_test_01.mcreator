@@ -687,7 +687,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cookedturkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkeyFoodEaten",
@@ -705,7 +705,7 @@
           }
         ]
       },
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkey",
@@ -715,7 +715,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_turkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "Cookingturkey",
@@ -745,7 +745,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_bacon",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawBaconFoodEaten",
@@ -762,7 +762,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Food"
     },
     {
       "name": "CookedBacon",
@@ -772,7 +773,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cooked_bacon",
-      "path": "~/Meterials"
+      "path": "~/Food"
     }
   ],
   "variable_elements": [
@@ -873,6 +874,10 @@
       },
       {
         "name": "Meterials",
+        "children": []
+      },
+      {
+        "name": "Food",
         "children": []
       }
     ]
