@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "crystlized_gold_tools_shovel",
+    "texture": "crystlized_gold_shovel_img",
     "customModelName": "Normal",
     "name": "Crystlized_gold_tools Shovel",
     "specialInfo": [],
@@ -14,11 +14,11 @@
     "harvestLevel": 6,
     "efficiency": 12.0,
     "attackSpeed": 1.0,
-    "enchantability": 42,
+    "enchantability": 20,
     "damageVsEntity": 6.0,
-    "usageCount": 1164,
+    "usageCount": 3000,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:Crystlizedgoldingot"
@@ -26,6 +26,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BDSLivingEntityIsHitWithTool"
+    }
   }
 }
