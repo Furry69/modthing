@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "unstable_enriched_iron_helm_img",
+    "textureHelmet": "enriched_iron_helm_img",
     "enableBody": true,
-    "textureBody": "unstable_enriched_iron_chestplate_img",
+    "textureBody": "enriched_iron_chestplate_img",
     "enableLeggings": true,
-    "textureLeggings": "unstable_enriched_leggings_img",
+    "textureLeggings": "enriched_iron_leggings_img",
     "enableBoots": true,
-    "textureBoots": "unstable_enriched_iron_boots_img",
+    "textureBoots": "enriched_iron_boots_img",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "unstable_enriched_armor_img",
+    "armorTextureFile": "crystlizedgoldarmor",
     "helmetName": "Crystlized gold Helmet",
     "bodyName": "Crystlized gold Chestplate",
     "leggingsName": "Crystlized gold Leggings",
@@ -38,16 +38,16 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 12,
+    "maxDamage": 35,
     "damageValueHelmet": 4,
     "damageValueBody": 9,
     "damageValueLeggings": 7,
     "damageValueBoots": 4,
     "enchantability": 20,
-    "toughness": 1.0,
-    "knockbackResistance": 0.0,
+    "toughness": 3.5,
+    "knockbackResistance": 0.5,
     "equipSound": {
-      "value": "block.beacon.activate"
+      "value": "block.respawn_anchor.charge"
     },
     "repairItems": [
       {

@@ -872,26 +872,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodFence",
-      "type": "block",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
-      "name": "BloodWoodFenceGate",
-      "type": "block",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_gate",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodItemsTag",
       "type": "tag",
       "sortid": 61,
@@ -942,26 +922,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodFenceRecipe",
-      "type": "recipe",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
-      "name": "BloodWoodFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_gate_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodStickRecipe",
       "type": "recipe",
       "sortid": 68,
@@ -970,6 +930,16 @@
       "ids": {},
       "registry_name": "blood_wood_stick_recipe",
       "path": "~/Meterials/Bloodwood"
+    },
+    {
+      "name": "Throwableleech",
+      "type": "gun",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "throwableleech",
+      "path": "~/Equipment"
     },
     {
       "name": "ThrowableleechBulletHitsPlayer",
@@ -989,14 +959,31 @@
       }
     },
     {
-      "name": "Throwableleech",
-      "type": "gun",
+      "name": "BloodSticksLivingEntityIsHitWithItem",
+      "type": "procedure",
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "throwableleech",
-      "path": "~/Equipment"
+      "registry_name": "blood_sticks_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodSticks",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_sticks",
+      "path": "~/Meterials/Bloodwood"
     }
   ],
   "variable_elements": [

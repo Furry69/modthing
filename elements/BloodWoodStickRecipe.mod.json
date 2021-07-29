@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.STICK"
+      "value": "CUSTOM:BloodSticks"
     },
     "name": "blood_wood_stick_recipe",
     "namespace": "mod"

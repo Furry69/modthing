@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "minecraft:stick",
+    "item": "feature_test_01:blood_sticks",
     "count": 4
   }
 }
