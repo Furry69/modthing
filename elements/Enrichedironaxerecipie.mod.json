@@ -10,6 +10,9 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:Enrichediron"
       },
       {
@@ -17,15 +20,12 @@
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:Enrichediron"
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
         "value": ""

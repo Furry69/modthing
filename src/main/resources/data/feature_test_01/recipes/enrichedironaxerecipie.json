@@ -4,7 +4,7 @@
   "pattern": [
     "01",
     "23",
-    " 5"
+    "4 "
   ],
   "key": {
     "0": {
@@ -14,12 +14,12 @@
       "item": "feature_test_01:enrichediron"
     },
     "2": {
-      "item": "feature_test_01:enrichediron"
-    },
-    "3": {
       "item": "minecraft:stick"
     },
-    "5": {
+    "3": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "4": {
       "item": "minecraft:stick"
     }
   },

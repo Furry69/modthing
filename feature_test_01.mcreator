@@ -539,7 +539,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_axe_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlized_gold_toolsPickaxeRecipe",
@@ -549,7 +549,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_pickaxe_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlized_gold_toolsShovelRecipe",
@@ -559,7 +559,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlized_gold_tools_shovel_recipe",
-      "path": "~/Equipment"
+      "path": "~/Crafting"
     },
     {
       "name": "BDSLivingEntityIsHitWithTool",
@@ -601,8 +601,8 @@
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
+      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.eridium": "Eridium",
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
