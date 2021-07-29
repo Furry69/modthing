@@ -500,6 +500,23 @@
       "ids": {},
       "registry_name": "bd_srecipie",
       "path": "~/Crafting"
+    },
+    {
+      "name": "BDSLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bds_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
