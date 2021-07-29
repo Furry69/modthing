@@ -736,6 +736,43 @@
       "ids": {},
       "registry_name": "turkeyloot",
       "path": "~/Mobs"
+    },
+    {
+      "name": "RawBacon",
+      "type": "food",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_bacon",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "RawBaconFoodEaten",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_bacon_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CookedBacon",
+      "type": "food",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_bacon",
+      "path": "~/Meterials"
     }
   ],
   "variable_elements": [
@@ -794,6 +831,7 @@
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
       "entity.feature_test_01.turkey": "Turkey",
+      "item.feature_test_01.raw_bacon": "Raw Bacon",
       "item.feature_test_01.crystlizedgoldarmor_armor_chestplate": "Crystlized gold Chestplate",
       "item.feature_test_01.raw_turkey": "Raw Turkey",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
@@ -809,6 +847,7 @@
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
       "item.feature_test_01.crystlizedgoldarmor_armor_boots": "Crystlized gold Boots",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
+      "item.feature_test_01.cooked_bacon": "Cooked Bacon",
       "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
       "item.feature_test_01.cookedturkey": "Cooked Turkey"
     }

@@ -18,8 +18,8 @@
     "resultItem": {
       "value": ""
     },
-    "forDogs": false,
-    "isAlwaysEdible": true,
+    "forDogs": true,
+    "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {

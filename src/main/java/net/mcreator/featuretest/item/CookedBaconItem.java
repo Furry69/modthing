@@ -12,18 +12,18 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.featuretest.procedures.RawTurkeyFoodEatenProcedure;
+import net.mcreator.featuretest.procedures.RawBaconFoodEatenProcedure;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
 @FeatureTest01ModElements.ModElement.Tag
-public class RawTurkeyItem extends FeatureTest01ModElements.ModElement {
-	@ObjectHolder("feature_test_01:raw_turkey")
+public class CookedBaconItem extends FeatureTest01ModElements.ModElement {
+	@ObjectHolder("feature_test_01:cooked_bacon")
 	public static final Item block = null;
-	public RawTurkeyItem(FeatureTest01ModElements instance) {
-		super(instance, 44);
+	public CookedBaconItem(FeatureTest01ModElements instance) {
+		super(instance, 49);
 	}
 
 	@Override
@@ -32,9 +32,9 @@ public class RawTurkeyItem extends FeatureTest01ModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(2).saturation(1.2f).meat().build()));
-			setRegistryName("raw_turkey");
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.UNCOMMON)
+					.food((new Food.Builder()).hunger(8).saturation(10f).setAlwaysEdible().meat().build()));
+			setRegistryName("cooked_bacon");
 		}
 
 		@Override
@@ -51,7 +51,7 @@ public class RawTurkeyItem extends FeatureTest01ModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				RawTurkeyFoodEatenProcedure.executeProcedure($_dependencies);
+				RawBaconFoodEatenProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

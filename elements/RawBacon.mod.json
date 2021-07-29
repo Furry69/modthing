@@ -3,17 +3,17 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "cookedturkey",
+    "texture": "rawbacon",
     "customModelName": "Normal",
-    "name": "Cooked Turkey",
+    "name": "Raw Bacon",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
-    "saturation": 7.2,
+    "nutritionalValue": 3,
+    "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
