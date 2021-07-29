@@ -37,12 +37,12 @@ public class CrystlizedgoldarmorArmorItem extends FeatureTest01ModElements.ModEl
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 35;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 33;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 7, 9, 4}[slot.getIndex()];
+				return new int[]{3, 6, 8, 3}[slot.getIndex()];
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public class CrystlizedgoldarmorArmorItem extends FeatureTest01ModElements.ModEl
 
 			@Override
 			public float getToughness() {
-				return 3.5f;
+				return 2.5f;
 			}
 
 			@Override
