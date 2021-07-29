@@ -25,7 +25,7 @@ public class RawBaconFoodEatenProcedure extends FeatureTest01ModElements.ModElem
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 1)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 200, (int) 1));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HASTE, (int) 200, (int) 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 2)) {
 			if (entity instanceof LivingEntity)
