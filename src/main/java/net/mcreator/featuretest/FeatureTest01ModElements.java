@@ -46,6 +46,12 @@ public class FeatureTest01ModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public FeatureTest01ModElements() {
+		sounds.put(new ResourceLocation("feature_test_01", "turkeysound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeysound")));
+		sounds.put(new ResourceLocation("feature_test_01", "turkeyhurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeyhurt")));
+		sounds.put(new ResourceLocation("feature_test_01", "turkeydie"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeydie")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("feature_test_01").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
