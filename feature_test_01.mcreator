@@ -687,7 +687,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cookedturkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkeyFoodEaten",
@@ -705,7 +705,7 @@
           }
         ]
       },
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "RawTurkey",
@@ -715,7 +715,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_turkey",
-      "path": "~/Meterials"
+      "path": "~/Food"
     },
     {
       "name": "Cookingturkey",
