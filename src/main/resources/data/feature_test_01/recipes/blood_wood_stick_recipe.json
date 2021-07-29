@@ -1,0 +1,20 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "feature_test_01:blood_wood_planks"
+    },
+    "1": {
+      "item": "feature_test_01:blood_wood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

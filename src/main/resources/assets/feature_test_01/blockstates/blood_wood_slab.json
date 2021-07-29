@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "feature_test_01:block/blood_wood_slab"
+    },
+    "type=top": {
+      "model": "feature_test_01:block/blood_wood_slab_top"
+    },
+    "type=double": {
+      "model": "feature_test_01:block/blood_wood_slab_full"
+    }
+  }
+}

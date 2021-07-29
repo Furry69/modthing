@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "feature_test_01:blocks/bloodwood_leaves",
+    "particle": "feature_test_01:blocks/bloodwood_leaves"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "feature_test_01:blood_wood_log"
+    }
+  ],
+  "result": {
+    "item": "feature_test_01:blood_wood_planks",
+    "count": 4
+  }
+}

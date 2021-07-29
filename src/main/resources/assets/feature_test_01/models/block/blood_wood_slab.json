@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "feature_test_01:blocks/bloodwood_planks",
+    "top": "feature_test_01:blocks/bloodwood_planks",
+    "side": "feature_test_01:blocks/bloodwood_planks"
+  }
+}
