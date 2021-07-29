@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:gold_ingot"
+  },
+  "addition": {
+    "item": "feature_test_01:gemdust"
+  },
+  "result": {
+    "item": "feature_test_01:rawcrystlizedgold"
+  }
+}

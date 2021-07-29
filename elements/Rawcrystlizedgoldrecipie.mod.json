@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Gemdust"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Rawcrystlizedgold"
+    },
+    "name": "rawcrystlizedgoldrecipie",
+    "namespace": "mod"
+  }
+}

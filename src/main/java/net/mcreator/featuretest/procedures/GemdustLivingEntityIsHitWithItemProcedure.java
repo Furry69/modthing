@@ -32,6 +32,6 @@ public class GemdustLivingEntityIsHitWithItemProcedure extends FeatureTest01ModE
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		((itemstack)).shrink((int) 1);
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(SplintereffectPotion.potion, (int) 1200, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(SplintereffectPotion.potion, (int) 12000, (int) 1));
 	}
 }

@@ -440,6 +440,46 @@
       "ids": {},
       "registry_name": "gemdust",
       "path": "~/Meterials"
+    },
+    {
+      "name": "Rawcrystlizedgold",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawcrystlizedgold",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "Rawcrystlizedgoldrecipie",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawcrystlizedgoldrecipie",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "Crystlizedgoldingot",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystlizedgoldingot",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "Crystlizedgoldrecipie",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystlizedgoldrecipie",
+      "path": "~/Meterials"
     }
   ],
   "variable_elements": [
@@ -455,6 +495,7 @@
     "en_us": {
       "block.feature_test_01.eridiumblock": "Eridiam Block",
       "item.feature_test_01.gemdust": "Gemdust",
+      "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
@@ -464,6 +505,7 @@
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
+      "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.eridium": "Eridium",
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",

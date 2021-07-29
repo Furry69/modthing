@@ -25,7 +25,7 @@ public class SplintereffectOnPotionActiveTickProcedure extends FeatureTest01ModE
 			entity.attackEntityFrom(DamageSource.SWEET_BERRY_BUSH, (float) 1);
 		}
 		if (((entity.getPersistentData().getDouble("splinter_dmg_timer")) == 0)) {
-			entity.getPersistentData().putDouble("splinter_dmg_timer", 60);
+			entity.getPersistentData().putDouble("splinter_dmg_timer", 1200);
 		} else {
 			entity.getPersistentData().putDouble("splinter_dmg_timer", ((entity.getPersistentData().getDouble("splinter_dmg_timer")) - 1));
 		}
