@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Eridiumeffect",
+    "effectName": "Eridiumeffect",
+    "icon": "eridium_effect.png",
+    "color": {
+      "value": -65281,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EridiumeffectOnPotionActiveTick"
+    }
+  }
+}

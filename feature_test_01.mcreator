@@ -578,6 +578,53 @@
         ]
       },
       "path": "~/Equipment"
+    },
+    {
+      "name": "Eridiumeffect",
+      "type": "potion",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eridiumeffect"
+    },
+    {
+      "name": "EridiumRightClickedInAir",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eridium_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EridiumeffectOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eridiumeffect_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -595,6 +642,7 @@
       "item.feature_test_01.gemdust": "Gemdust",
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
+      "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
@@ -609,11 +657,15 @@
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
       "effect.splintereffect": "Splinter_effect",
+      "item.minecraft.potion.effect.eridiumeffect": "Eridiumeffect",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
+      "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "item.feature_test_01.symphonicbeatingstick": "Symphonicbeatingstick",
+      "effect.eridiumeffect": "Eridiumeffect",
       "entity.feature_test_01.iceenemy_01": "Frozen Goliath",
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
       "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
+      "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
       "item.minecraft.potion.effect.splintereffect": "Splinter_effect"
     }
   },

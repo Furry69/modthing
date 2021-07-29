@@ -6,13 +6,17 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.Hand;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.featuretest.procedures.EridiumRightClickedInAirProcedure;
 import net.mcreator.featuretest.procedures.EridiumLivingEntityIsHitWithItemProcedure;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
@@ -56,6 +60,22 @@ public class EridiumItem extends FeatureTest01ModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
+				EridiumRightClickedInAirProcedure.executeProcedure($_dependencies);
+			}
+			return ar;
 		}
 
 		@Override
