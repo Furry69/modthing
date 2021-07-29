@@ -482,6 +482,10 @@
       {
         "name": "Meterials",
         "children": []
+      },
+      {
+        "name": "Equipment",
+        "children": []
       }
     ]
   },
