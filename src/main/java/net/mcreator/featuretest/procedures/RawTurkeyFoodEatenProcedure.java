@@ -23,14 +23,23 @@ public class RawTurkeyFoodEatenProcedure extends FeatureTest01ModElements.ModEle
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 2)) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 60, (int) 1));
-		}
 		entity.getPersistentData().putDouble("TurkeyHunger", ((entity.getPersistentData().getDouble("TurkeyHunger")) + 1));
-		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 3)) {
+		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 8)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 200, (int) 1));
+		}
+		if (((entity.getPersistentData().getDouble("TurkeyHunger")) > 8)) {
 			entity.getPersistentData().putDouble("TurkeyHunger", 0);
-			System.out.println("Conform");
+		}
+		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 8)) {
+			entity.getPersistentData().putDouble("Hungercount", 200);
+		} else {
+			entity.getPersistentData().putDouble("Hungercount", ((entity.getPersistentData().getDouble("Hungercount")) - 1));
+		}
+		if (((entity.getPersistentData().getDouble("Hungercount")) == 0)) {
+			if (entity instanceof LivingEntity) {
+				((LivingEntity) entity).removePotionEffect(Effects.HUNGER);
+			}
 		}
 	}
 }
