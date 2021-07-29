@@ -1,0 +1,30 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "1": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "2": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "feature_test_01:crystlized_gold_tools_axe",
+    "count": 1
+  }
+}
