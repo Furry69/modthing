@@ -102,7 +102,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 1);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 5);
