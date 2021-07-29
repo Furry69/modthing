@@ -994,6 +994,53 @@
       "ids": {},
       "registry_name": "blood_wood_fence",
       "path": "~/Meterials/Bloodwood"
+    },
+    {
+      "name": "HellHound",
+      "type": "mob",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hell_hound",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "HellHoundRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hell_hound_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1040,8 +1087,8 @@
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
+      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
@@ -1053,6 +1100,7 @@
       "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
       "block.feature_test_01.blood_wood_leaves": "BloodWood Leaves",
       "block.feature_test_01.blood_wood_planks": "BloodWood Planks",
+      "entity.feature_test_01.hell_hound": "Hell Hound",
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
       "block.feature_test_01.blood_wood_fence": "BloodWood Fence",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
@@ -1074,8 +1122,10 @@
       "entity.feature_test_01.turkey": "Turkey",
       "item.feature_test_01.raw_bacon": "Raw Bacon",
       "item.feature_test_01.unstableenrichedironarmor_boots": "Crystlized gold Boots",
+      "item.feature_test_01.hell_hound_spawn_egg": "Hell Hound Spawn Egg",
       "item.feature_test_01.raw_turkey": "Raw Turkey",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
+      "item.feature_test_01.blood_sticks": "Blood Sticks",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "effect.eridiumeffect": "Eridiumeffect",

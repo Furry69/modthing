@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
+    "facing=south": {
       "model": "feature_test_01:block/blood_wood_log"
+    },
+    "facing=north": {
+      "model": "feature_test_01:block/blood_wood_log"
+    },
+    "facing=east": {
+      "model": "feature_test_01:block/blood_wood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "feature_test_01:block/blood_wood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "feature_test_01:block/blood_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "feature_test_01:block/blood_wood_log",
+      "x": 90,
+      "y": 90
     }
   }
 }
