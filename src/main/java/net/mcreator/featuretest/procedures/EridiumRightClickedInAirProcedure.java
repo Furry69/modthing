@@ -32,6 +32,6 @@ public class EridiumRightClickedInAirProcedure extends FeatureTest01ModElements.
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		((itemstack)).shrink((int) 1);
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(EridiumeffectPotion.potion, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(EridiumeffectPotion.potion, (int) 1200, (int) 1));
 	}
 }
