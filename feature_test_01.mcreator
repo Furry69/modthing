@@ -76,8 +76,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iceenemy_01",
-      "path": "~/Mobs"
+      "registry_name": "iceenemy_01"
     },
     {
       "name": "Testloottable02",
@@ -104,8 +103,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "Symphonicbeatingstick",
@@ -171,7 +169,7 @@
           }
         ]
       },
-      "path": "~/Equipment"
+      "path": "~/Meterials"
     },
     {
       "name": "Enrichedironpick",
@@ -218,8 +216,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "Enrichedironrod",
@@ -286,8 +283,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "Enrichedironthrowable",
@@ -326,8 +322,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "Enrichedironjavelinrecipie",
@@ -376,8 +371,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "Boomjavelinrecipie",
@@ -413,7 +407,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "splintereffect"
+      "registry_name": "splintereffect",
+      "path": "~/Meterials"
     },
     {
       "name": "GemdustLivingEntityIsHitWithItem",
@@ -434,8 +429,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Meterials"
+      }
     },
     {
       "name": "Gemdust",
@@ -508,16 +502,6 @@
       "path": "~/Crafting"
     },
     {
-      "name": "Crystlized_gold_toolsPickaxe",
-      "type": "tool",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystlized_gold_tools_pickaxe",
-      "path": "~/Equipment"
-    },
-    {
       "name": "Crystlized_gold_toolsAxe",
       "type": "tool",
       "sortid": 33,
@@ -538,13 +522,13 @@
       "path": "~/Equipment"
     },
     {
-      "name": "Crystlized_gold_toolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 37,
+      "name": "Crystlized_gold_toolsPickaxe",
+      "type": "tool",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystlized_gold_tools_pickaxe_recipe",
+      "registry_name": "crystlized_gold_tools_pickaxe",
       "path": "~/Equipment"
     },
     {
@@ -558,6 +542,16 @@
       "path": "~/Equipment"
     },
     {
+      "name": "Crystlized_gold_toolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystlized_gold_tools_pickaxe_recipe",
+      "path": "~/Equipment"
+    },
+    {
       "name": "Crystlized_gold_toolsShovelRecipe",
       "type": "recipe",
       "sortid": 40,
@@ -566,6 +560,23 @@
       "ids": {},
       "registry_name": "crystlized_gold_tools_shovel_recipe",
       "path": "~/Equipment"
+    },
+    {
+      "name": "BDSLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bds_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -613,19 +624,19 @@
         "children": []
       },
       {
-        "name": "Equipment",
-        "children": []
-      },
-      {
-        "name": "Meterials",
-        "children": []
-      },
-      {
         "name": "Crafting",
         "children": []
       },
       {
+        "name": "Equipment",
+        "children": []
+      },
+      {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Meterials",
         "children": []
       }
     ]
