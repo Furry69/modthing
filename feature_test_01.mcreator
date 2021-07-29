@@ -112,7 +112,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "symphonicbeatingstick"
+      "registry_name": "symphonicbeatingstick",
+      "path": "~/Equipment"
     },
     {
       "name": "EnrichedironItemIsCraftedsmelted",
@@ -177,8 +178,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironpick",
-      "path": "~/Meterials"
+      "registry_name": "enrichedironpick"
     },
     {
       "name": "Enrichedironaxe",
@@ -187,8 +187,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironaxe",
-      "path": "~/Meterials"
+      "registry_name": "enrichedironaxe"
     },
     {
       "name": "Enrichedironshovel",
@@ -197,8 +196,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironshovel",
-      "path": "~/Meterials"
+      "registry_name": "enrichedironshovel"
     },
     {
       "name": "EnrichedironLivingEntityIsHitWithItem",
@@ -291,8 +289,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironthrowable",
-      "path": "~/Meterials"
+      "registry_name": "enrichedironthrowable"
     },
     {
       "name": "EnrichedironthrowableBulletHitsBlock",
@@ -340,8 +337,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "boomjavelin",
-      "path": "~/Meterials"
+      "registry_name": "boomjavelin"
     },
     {
       "name": "BoomjavelinBulletHitsBlock",
