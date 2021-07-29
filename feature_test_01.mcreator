@@ -785,9 +785,9 @@
       "registry_name": "unstableenrichedironarmor",
       "metadata": {
         "eh": true,
+        "el": true,
         "eb": true,
-        "ec": true,
-        "el": true
+        "ec": true
       },
       "path": "~/Equipment"
     }
