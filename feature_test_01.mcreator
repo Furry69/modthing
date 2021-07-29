@@ -76,7 +76,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iceenemy_01"
+      "registry_name": "iceenemy_01",
+      "path": "~/Mobs"
     },
     {
       "name": "Testloottable02",
@@ -103,7 +104,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Symphonicbeatingstick",
@@ -216,7 +218,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Meterials"
     },
     {
       "name": "Enrichedironrod",
@@ -283,7 +286,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironthrowable",
@@ -322,7 +326,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironjavelinrecipie",
@@ -371,7 +376,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Boomjavelinrecipie",
@@ -407,8 +413,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "splintereffect",
-      "path": "~/Meterials"
+      "registry_name": "splintereffect"
     },
     {
       "name": "GemdustLivingEntityIsHitWithItem",
@@ -429,7 +434,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Meterials"
     },
     {
       "name": "Gemdust",
@@ -624,7 +630,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Meterials"
     }
   ],
   "variable_elements": [
