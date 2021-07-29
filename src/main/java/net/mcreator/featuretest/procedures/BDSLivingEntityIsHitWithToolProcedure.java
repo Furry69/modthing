@@ -26,6 +26,6 @@ public class BDSLivingEntityIsHitWithToolProcedure extends FeatureTest01ModEleme
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.GLOWING, (int) 40, (int) 5));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WEAKNESS, (int) 40, (int) 2));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.BLINDNESS, (int) 40, (int) 4));
 	}
 }
