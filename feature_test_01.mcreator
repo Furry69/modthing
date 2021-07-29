@@ -576,7 +576,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [
