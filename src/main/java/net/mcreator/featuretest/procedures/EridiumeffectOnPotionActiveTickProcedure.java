@@ -1,6 +1,9 @@
 package net.mcreator.featuretest.procedures;
 
 import net.minecraft.util.DamageSource;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.featuretest.FeatureTest01ModElements;
@@ -22,5 +25,7 @@ public class EridiumeffectOnPotionActiveTickProcedure extends FeatureTest01ModEl
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) 1);
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 1, (int) 1, (false), (false)));
 	}
 }
