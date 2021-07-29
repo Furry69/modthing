@@ -105,7 +105,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 5);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 1);
 			event.put(entity, ammma.create());
 		}
@@ -118,7 +118,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 2;
 			setNoAI(false);
 			enablePersistence();
 		}
@@ -133,7 +133,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, true));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 5, true));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new SwimGoal(this));
 			this.goalSelector.addGoal(6, new BreedGoal(this, 1));
