@@ -47,7 +47,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eridium_block_recipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Testloottable01",
@@ -151,7 +151,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "EnrichedironpickLivingEntityIsHitWithTool",
@@ -236,7 +236,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironrodrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironpickrecipie",
@@ -246,7 +246,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironpickrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironshovelrecipie",
@@ -256,7 +256,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironshovelrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironaxerecipie",
@@ -266,7 +266,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironaxerecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "EnrichedironthrowableRangedItemUsed",
@@ -332,7 +332,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironjavelinrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Boomjavelin",
@@ -381,7 +381,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "boomjavelinrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "SplintereffectOnPotionActiveTick",
@@ -449,7 +449,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rawcrystlizedgoldrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlizedgoldrecipie",
@@ -459,7 +459,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlizedgoldrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Rawcrystlizedgold",
@@ -490,6 +490,16 @@
       "ids": {},
       "registry_name": "bds",
       "path": "~/Equipment"
+    },
+    {
+      "name": "BDSrecipie",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bd_srecipie",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [
@@ -511,7 +521,7 @@
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
       "item.feature_test_01.symphonicbeatingstick": "Symphonicbeatingstick",
-      "item.feature_test_01.bds": "BDS",
+      "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "entity.feature_test_01.iceenemy_01": "Frozen Goliath",
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
@@ -539,6 +549,14 @@
       },
       {
         "name": "Meterials",
+        "children": []
+      },
+      {
+        "name": "Crafting",
+        "children": []
+      },
+      {
+        "name": "Mobs",
         "children": []
       }
     ]

@@ -39,13 +39,13 @@ public class BDSItem extends FeatureTest01ModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 20;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("bds"));
 	}
 }
