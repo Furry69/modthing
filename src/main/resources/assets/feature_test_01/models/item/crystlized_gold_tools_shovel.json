@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "feature_test_01:items/crystlized_gold_tools_shovel"
+  }
+}

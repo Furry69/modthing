@@ -1,0 +1,24 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "feature_test_01:crystlized_gold_tools_shovel",
+    "count": 1
+  }
+}
