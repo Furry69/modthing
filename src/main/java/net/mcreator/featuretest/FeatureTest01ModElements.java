@@ -48,10 +48,10 @@ public class FeatureTest01ModElements {
 	public FeatureTest01ModElements() {
 		sounds.put(new ResourceLocation("feature_test_01", "turkeysound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeysound")));
-		sounds.put(new ResourceLocation("feature_test_01", "turkeyhurt"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeyhurt")));
 		sounds.put(new ResourceLocation("feature_test_01", "turkeydie"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeydie")));
+		sounds.put(new ResourceLocation("feature_test_01", "turkeyhurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("feature_test_01", "turkeyhurt")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("feature_test_01").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

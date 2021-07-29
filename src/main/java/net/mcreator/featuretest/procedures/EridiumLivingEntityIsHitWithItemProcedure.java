@@ -24,6 +24,6 @@ public class EridiumLivingEntityIsHitWithItemProcedure extends FeatureTest01ModE
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 80, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 100, (int) 1));
 	}
 }

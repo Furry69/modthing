@@ -636,6 +636,16 @@
       "path": "~/Meterials"
     },
     {
+      "name": "Turkey",
+      "type": "mob",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turkey",
+      "path": "~/Mobs"
+    },
+    {
       "name": "TurkeyEntityFalls",
       "type": "procedure",
       "sortid": 42,
@@ -653,14 +663,20 @@
       }
     },
     {
-      "name": "Turkey",
-      "type": "mob",
+      "name": "CrystlizedgoldarmorArmor",
+      "type": "armor",
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "turkey",
-      "path": "~/Mobs"
+      "registry_name": "crystlizedgoldarmor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [
@@ -681,17 +697,17 @@
       "subtitle": ""
     },
     {
-      "name": "turkeyhurt",
+      "name": "turkeydie",
       "files": [
-        "peacock-call-peacock-sounds-_mp3cut.net_"
+        "peacock-call-peacock-sounds-_mp3cut.net_2"
       ],
       "category": "neutral",
       "subtitle": ""
     },
     {
-      "name": "turkeydie",
+      "name": "turkeyhurt",
       "files": [
-        "peacock-call-peacock-sounds-_mp3cut.net_2"
+        "peacock-call-peacock-sounds-_mp3cut.net_"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -704,21 +720,21 @@
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
       "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
+      "item.feature_test_01.crystlizedgoldarmor_armor_leggings": "Crystlized gold Leggings",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
+      "item.feature_test_01.crystlizedgoldarmor_armor_helmet": "Crystlized gold Helmet",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
-      "subtitles.turkeysound": "",
-      "subtitles.turkeydie": "",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.eridium": "Eridium",
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
-      "entity.feature_test_01.turkey": "Turkey",
+      "item.feature_test_01.crystlizedgoldarmor_armor_chestplate": "Crystlized gold Chestplate",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
       "effect.splintereffect": "Splinter_effect",
       "item.minecraft.potion.effect.eridiumeffect": "Eridiumeffect",
@@ -730,9 +746,8 @@
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
       "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
-      "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
-      "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
-      "subtitles.turkeyhurt": ""
+      "item.feature_test_01.crystlizedgoldarmor_armor_boots": "Crystlized gold Boots",
+      "item.minecraft.potion.effect.splintereffect": "Splinter_effect"
     }
   },
   "foldersRoot": {

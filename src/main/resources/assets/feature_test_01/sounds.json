@@ -8,20 +8,20 @@
       }
     ]
   },
-  "turkeyhurt": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "feature_test_01:peacock-call-peacock-sounds-_mp3cut.net_",
-        "stream": false
-      }
-    ]
-  },
   "turkeydie": {
     "category": "neutral",
     "sounds": [
       {
         "name": "feature_test_01:peacock-call-peacock-sounds-_mp3cut.net_2",
+        "stream": false
+      }
+    ]
+  },
+  "turkeyhurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "feature_test_01:peacock-call-peacock-sounds-_mp3cut.net_",
         "stream": false
       }
     ]
