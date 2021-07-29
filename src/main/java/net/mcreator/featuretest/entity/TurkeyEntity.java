@@ -68,7 +68,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -13625344, -12034766, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -16375923, -12958380, new Item.Properties().group(ItemGroup.MISC))
 				.setRegistryName("turkey_spawn_egg"));
 	}
 
