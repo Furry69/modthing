@@ -872,26 +872,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodFence",
-      "type": "block",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
-      "name": "BloodWoodFenceGate",
-      "type": "block",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_gate",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodItemsTag",
       "type": "tag",
       "sortid": 61,
@@ -942,26 +922,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodFenceRecipe",
-      "type": "recipe",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
-      "name": "BloodWoodFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_fence_gate_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodStickRecipe",
       "type": "recipe",
       "sortid": 68,
@@ -969,6 +929,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blood_wood_stick_recipe",
+      "path": "~/Meterials/Bloodwood"
+    },
+    {
+      "name": "BloodSticksLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_sticks_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodSticks",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_sticks",
       "path": "~/Meterials/Bloodwood"
     }
   ],
@@ -1015,8 +1002,8 @@
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
+      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
@@ -1029,7 +1016,6 @@
       "block.feature_test_01.blood_wood_leaves": "BloodWood Leaves",
       "block.feature_test_01.blood_wood_planks": "BloodWood Planks",
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
-      "block.feature_test_01.blood_wood_fence": "BloodWood Fence",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
       "item.feature_test_01.cooked_bacon": "Cooked Bacon",
       "item.feature_test_01.enrichedironarmor_helmet": "Crystlized gold Helmet",
@@ -1051,13 +1037,13 @@
       "item.feature_test_01.unstableenrichedironarmor_boots": "Crystlized gold Boots",
       "item.feature_test_01.raw_turkey": "Raw Turkey",
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
+      "item.feature_test_01.blood_sticks": "Blood Sticks",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "effect.eridiumeffect": "Eridiumeffect",
       "item.feature_test_01.unstableenrichedironarmor_helmet": "Crystlized gold Helmet",
       "block.feature_test_01.blood_wood_wood": "BloodWood Wood",
       "block.feature_test_01.blood_wood_slab": "BloodWood Slab",
-      "block.feature_test_01.blood_wood_fence_gate": "BloodWood Fence Gate",
       "item.feature_test_01.cookedturkey": "Cooked Turkey"
     }
   },
