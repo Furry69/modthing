@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "throw_leech_img",
+    "customModelName": "Normal",
+    "name": "Throwableleech",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.slime.jump"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 5.0,
+    "onRangedItemUsed": {
+      "name": "EnrichedironthrowableRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Throwableleech"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "ThrowableleechBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "ThrowableleechBulletHitsPlayer"
+    }
+  }
+}

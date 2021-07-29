@@ -5,8 +5,8 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 2,
-        "maxrolls": 2,
+        "minrolls": 1,
+        "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Items.FEATHER"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 0,
             "maxCount": 4,
             "minEnchantmentLevel": 0,
