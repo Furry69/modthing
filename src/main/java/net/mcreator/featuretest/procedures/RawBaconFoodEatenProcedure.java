@@ -44,35 +44,41 @@ public class RawBaconFoodEatenProcedure extends FeatureTest01ModElements.ModElem
 		}
 		entity.getPersistentData().putDouble("BaconMagic", ((entity.getPersistentData().getDouble("BaconMagic")) + Math.round(Math.random())));
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 1)) {
-			entity.getPersistentData().putDouble("EffectCount", 200);
+			entity.getPersistentData().putDouble("EffectCount1", 200);
 		} else {
-			entity.getPersistentData().putDouble("EffectCount", ((entity.getPersistentData().getDouble("EffectCount")) - 1));
+			entity.getPersistentData().putDouble("EffectCount1", ((entity.getPersistentData().getDouble("EffectCount1")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 2)) {
-			entity.getPersistentData().putDouble("EffectCount", 200);
+			entity.getPersistentData().putDouble("EffectCount2", 200);
 		} else {
-			entity.getPersistentData().putDouble("EffectCount", ((entity.getPersistentData().getDouble("EffectCount")) - 1));
+			entity.getPersistentData().putDouble("EffectCount2", ((entity.getPersistentData().getDouble("EffectCount2")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 3)) {
-			entity.getPersistentData().putDouble("EffectCount", 200);
+			entity.getPersistentData().putDouble("EffectCount3", 200);
 		} else {
-			entity.getPersistentData().putDouble("EffectCount", ((entity.getPersistentData().getDouble("EffectCount")) - 1));
+			entity.getPersistentData().putDouble("EffectCount3", ((entity.getPersistentData().getDouble("EffectCount3")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 4)) {
-			entity.getPersistentData().putDouble("EffectCount", 200);
+			entity.getPersistentData().putDouble("EffectCount4", 200);
 		} else {
-			entity.getPersistentData().putDouble("EffectCount", ((entity.getPersistentData().getDouble("EffectCount")) - 1));
+			entity.getPersistentData().putDouble("EffectCount4", ((entity.getPersistentData().getDouble("EffectCount4")) - 1));
 		}
-		if (((entity.getPersistentData().getDouble("EffectCount")) == 0)) {
+		if (((entity.getPersistentData().getDouble("EffectCount1")) == 0)) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).removePotionEffect(Effects.NIGHT_VISION);
 			}
+		}
+		if (((entity.getPersistentData().getDouble("EffectCount2")) == 0)) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).removePotionEffect(Effects.WATER_BREATHING);
 			}
+		}
+		if (((entity.getPersistentData().getDouble("EffectCount3")) == 0)) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).removePotionEffect(Effects.LEVITATION);
 			}
+		}
+		if (((entity.getPersistentData().getDouble("EffectCount4")) == 0)) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).removePotionEffect(Effects.HEALTH_BOOST);
 			}
