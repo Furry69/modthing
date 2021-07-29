@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Splinter_effect",
+    "effectName": "Splinter_effect",
+    "icon": "stray.png",
+    "color": {
+      "value": -9906514,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SplintereffectOnPotionActiveTick"
+    }
+  }
+}

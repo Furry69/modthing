@@ -1,0 +1,52 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "boom_javelin_img",
+    "customModelName": "Normal",
+    "name": "Unstable enriched iron javelin",
+    "specialInfo": [
+      "unstable javelin",
+      "might hurt user"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": true,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 6.0,
+    "onRangedItemUsed": {
+      "name": "EnrichedironthrowableRangedItemUsed"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 20.0,
+    "bulletKnockback": 14,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Enrichedironrod"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BoomjavelinBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "BoomjavelinBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "BoomjavelinBulletHitsBlock"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "feature_test_01:blocks/eridium_block_03",
+    "up": "feature_test_01:blocks/eridium_block_03",
+    "north": "feature_test_01:blocks/eridium_block_01",
+    "east": "feature_test_01:blocks/eridium_block_02",
+    "south": "feature_test_01:blocks/eridium_block_01",
+    "west": "feature_test_01:blocks/eridium_block_02",
+    "particle": "feature_test_01:blocks/eridium_block_03"
+  }
+}

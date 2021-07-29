@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "feature_test_01:block/eridiumblock"
+    },
+    "facing=east": {
+      "model": "feature_test_01:block/eridiumblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "feature_test_01:block/eridiumblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "feature_test_01:block/eridiumblock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "feature_test_01:block/eridiumblock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "feature_test_01:block/eridiumblock",
+      "x": 90
+    }
+  }
+}

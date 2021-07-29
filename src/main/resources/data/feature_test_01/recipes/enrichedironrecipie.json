@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "addition": {
+    "item": "feature_test_01:eridium"
+  },
+  "result": {
+    "item": "feature_test_01:enrichediron"
+  }
+}

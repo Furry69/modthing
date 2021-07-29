@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "feature_test_01:enrichediron"
+  },
+  "addition": {
+    "item": "feature_test_01:enrichediron"
+  },
+  "result": {
+    "item": "feature_test_01:enrichedironrod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "2": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "4": {
+      "item": "feature_test_01:enrichedironrod"
+    },
+    "5": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "6": {
+      "item": "feature_test_01:enrichedironrod"
+    }
+  },
+  "result": {
+    "item": "feature_test_01:boomjavelin",
+    "count": 1
+  }
+}
