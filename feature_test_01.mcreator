@@ -490,6 +490,16 @@
       "ids": {},
       "registry_name": "bds",
       "path": "~/Equipment"
+    },
+    {
+      "name": "BDSrecipie",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bd_srecipie",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [

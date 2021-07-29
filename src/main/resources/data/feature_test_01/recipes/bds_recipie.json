@@ -1,0 +1,36 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "2": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "3": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "4": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "5": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    },
+    "6": {
+      "item": "feature_test_01:enrichedironrod"
+    },
+    "7": {
+      "item": "feature_test_01:crystlizedgoldingot"
+    }
+  },
+  "result": {
+    "item": "feature_test_01:bds",
+    "count": 1
+  }
+}
