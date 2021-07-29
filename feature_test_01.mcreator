@@ -178,7 +178,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironpick"
+      "registry_name": "enrichedironpick",
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironaxe",
@@ -187,7 +188,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironaxe"
+      "registry_name": "enrichedironaxe",
+      "path": "~/Equipment"
     },
     {
       "name": "Enrichedironshovel",
@@ -196,7 +198,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironshovel"
+      "registry_name": "enrichedironshovel",
+      "path": "~/Equipment"
     },
     {
       "name": "EnrichedironLivingEntityIsHitWithItem",
@@ -289,7 +292,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "enrichedironthrowable"
+      "registry_name": "enrichedironthrowable",
+      "path": "~/Equipment"
     },
     {
       "name": "EnrichedironthrowableBulletHitsBlock",
@@ -337,7 +341,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "boomjavelin"
+      "registry_name": "boomjavelin",
+      "path": "~/Equipment"
     },
     {
       "name": "BoomjavelinBulletHitsBlock",
@@ -481,10 +486,6 @@
       },
       {
         "name": "Equipment",
-        "children": []
-      },
-      {
-        "name": "Bitch",
         "children": []
       }
     ]
