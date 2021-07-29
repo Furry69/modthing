@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "feature_test_01:items/crystlizedgoldarmor_body"
-  }
-}
