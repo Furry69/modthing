@@ -47,7 +47,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eridium_block_recipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Testloottable01",
@@ -151,7 +151,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "EnrichedironpickLivingEntityIsHitWithTool",
@@ -236,7 +236,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironrodrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironpickrecipie",
@@ -246,7 +246,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironpickrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironshovelrecipie",
@@ -256,7 +256,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironshovelrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Enrichedironaxerecipie",
@@ -266,7 +266,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironaxerecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "EnrichedironthrowableRangedItemUsed",
@@ -332,7 +332,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enrichedironjavelinrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Boomjavelin",
@@ -381,7 +381,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "boomjavelinrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "SplintereffectOnPotionActiveTick",
@@ -449,7 +449,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rawcrystlizedgoldrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Crystlizedgoldrecipie",
@@ -459,7 +459,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystlizedgoldrecipie",
-      "path": "~/Meterials"
+      "path": "~/Crafting"
     },
     {
       "name": "Rawcrystlizedgold",
@@ -539,6 +539,10 @@
       },
       {
         "name": "Meterials",
+        "children": []
+      },
+      {
+        "name": "Crafting",
         "children": []
       }
     ]

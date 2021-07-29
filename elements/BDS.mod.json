@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bds",
+    "texture": "bdstexture",
     "customModelName": "Normal",
     "name": "BDS",
     "specialInfo": [],
@@ -14,7 +14,7 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 2.5,
-    "enchantability": 2,
+    "enchantability": 20,
     "damageVsEntity": 12.0,
     "usageCount": 2300,
     "blocksAffected": [],

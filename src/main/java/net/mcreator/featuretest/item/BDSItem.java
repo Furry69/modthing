@@ -39,7 +39,7 @@ public class BDSItem extends FeatureTest01ModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 20;
 			}
 
 			public Ingredient getRepairMaterial() {
