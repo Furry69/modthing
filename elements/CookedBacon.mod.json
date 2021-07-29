@@ -3,24 +3,27 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "cookedturkey",
+    "texture": "cookedbacon",
     "customModelName": "Normal",
-    "name": "Cooked Turkey",
-    "rarity": "COMMON",
+    "name": "Cooked Bacon",
+    "rarity": "UNCOMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
-    "saturation": 7.2,
+    "nutritionalValue": 8,
+    "saturation": 10.0,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
     "forDogs": true,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "RawBaconFoodEaten"
+    }
   }
 }

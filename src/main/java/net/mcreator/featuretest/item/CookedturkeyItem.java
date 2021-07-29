@@ -27,7 +27,7 @@ public class CookedturkeyItem extends FeatureTest01ModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(6).saturation(7.2f).setAlwaysEdible().meat().build()));
+					.food((new Food.Builder()).hunger(6).saturation(7.2f).meat().build()));
 			setRegistryName("cookedturkey");
 		}
 

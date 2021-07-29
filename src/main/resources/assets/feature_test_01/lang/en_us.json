@@ -5,14 +5,11 @@
   "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
   "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
   "item.feature_test_01.crystlizedgoldarmor_armor_leggings": "Crystlized gold Leggings",
-  "item.feature_test_01.enrichedironarmor_boots": "Crystlized gold Boots",
   "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
   "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
-  "item.feature_test_01.enrichedironarmor_leggings": "Crystlized gold Leggings",
   "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
   "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
   "item.feature_test_01.crystlizedgoldarmor_armor_helmet": "Crystlized gold Helmet",
-  "item.feature_test_01.enrichedironarmor_chestplate": "Crystlized gold Chestplate",
   "item.feature_test_01.bds": "Big Crystalized Gold Sword",
   "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
   "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
@@ -37,7 +34,7 @@
   "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
   "item.feature_test_01.crystlizedgoldarmor_armor_boots": "Crystlized gold Boots",
   "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
-  "item.feature_test_01.enrichedironarmor_helmet": "Crystlized gold Helmet",
+  "item.feature_test_01.cooked_bacon": "Cooked Bacon",
   "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
   "item.feature_test_01.cookedturkey": "Cooked Turkey"
 }
