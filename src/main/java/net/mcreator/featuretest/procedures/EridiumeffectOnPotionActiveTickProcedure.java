@@ -24,7 +24,7 @@ public class EridiumeffectOnPotionActiveTickProcedure extends FeatureTest01ModEl
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.attackEntityFrom(DamageSource.GENERIC, (float) 1);
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) 0.2);
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 20, (int) 5, (false), (false)));
 	}
