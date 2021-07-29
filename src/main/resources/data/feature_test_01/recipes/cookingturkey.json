@@ -1,0 +1,12 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "feature_test_01:raw_turkey"
+  },
+  "result": {
+    "item": "feature_test_01:cookedturkey"
+  }
+}

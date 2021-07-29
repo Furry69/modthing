@@ -716,6 +716,26 @@
       "ids": {},
       "registry_name": "raw_turkey",
       "path": "~/Meterials"
+    },
+    {
+      "name": "Cookingturkey",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookingturkey",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Turkeyloot",
+      "type": "loottable",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turkeyloot",
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [

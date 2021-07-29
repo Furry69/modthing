@@ -11,29 +11,39 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
+import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.ai.goal.FollowParentGoal;
+import net.minecraft.entity.ai.goal.BreedGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
+import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ILivingEntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.entity.AgeableEntity;
 import net.minecraft.block.material.Material;
 
 import net.mcreator.featuretest.procedures.TurkeyEntityFallsProcedure;
@@ -101,7 +111,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends CreatureEntity {
+	public static class CustomEntity extends AnimalEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -110,6 +120,7 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			enablePersistence();
 		}
 
 		@Override
@@ -121,15 +132,22 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(3, new SwimGoal(this));
-			this.targetSelector.addGoal(6, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.goalSelector.addGoal(7, new MeleeAttackGoal(this, 1.2, false));
+			this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, true));
+			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(5, new SwimGoal(this));
+			this.goalSelector.addGoal(6, new BreedGoal(this, 1));
+			this.goalSelector.addGoal(7, new FollowParentGoal(this, 0.8));
 		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		@Override
@@ -166,6 +184,29 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public AgeableEntity func_241840_a(ServerWorld serverWorld, AgeableEntity ageable) {
+			CustomEntity retval = (CustomEntity) entity.create(serverWorld);
+			retval.onInitialSpawn(serverWorld, serverWorld.getDifficultyForLocation(new BlockPos(retval.getPosition())), SpawnReason.BREEDING,
+					(ILivingEntityData) null, (CompoundNBT) null);
+			return retval;
+		}
+
+		@Override
+		public boolean isBreedingItem(ItemStack stack) {
+			if (stack == null)
+				return false;
+			if (new ItemStack(Items.WHEAT_SEEDS, (int) (1)).getItem() == stack.getItem())
+				return true;
+			if (new ItemStack(Items.PUMPKIN_SEEDS, (int) (1)).getItem() == stack.getItem())
+				return true;
+			if (new ItemStack(Items.MELON_SEEDS, (int) (1)).getItem() == stack.getItem())
+				return true;
+			if (new ItemStack(Items.BEETROOT_SEEDS, (int) (1)).getItem() == stack.getItem())
+				return true;
+			return false;
 		}
 	}
 }
