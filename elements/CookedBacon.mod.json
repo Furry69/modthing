@@ -7,7 +7,9 @@
     "customModelName": "Normal",
     "name": "Cooked Bacon",
     "rarity": "UNCOMMON",
-    "specialInfo": [],
+    "specialInfo": [
+      "Don't Eat to Much"
+    ],
     "creativeTab": {
       "value": "FOOD"
     },

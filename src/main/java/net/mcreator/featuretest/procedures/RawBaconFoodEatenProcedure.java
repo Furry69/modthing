@@ -44,22 +44,22 @@ public class RawBaconFoodEatenProcedure extends FeatureTest01ModElements.ModElem
 		}
 		entity.getPersistentData().putDouble("BaconMagic", ((entity.getPersistentData().getDouble("BaconMagic")) + Math.round(Math.random())));
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 1)) {
-			entity.getPersistentData().putDouble("EffectCount1", 200);
+			entity.getPersistentData().putDouble("EffectCount1", 201);
 		} else {
 			entity.getPersistentData().putDouble("EffectCount1", ((entity.getPersistentData().getDouble("EffectCount1")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 2)) {
-			entity.getPersistentData().putDouble("EffectCount2", 200);
+			entity.getPersistentData().putDouble("EffectCount2", 201);
 		} else {
 			entity.getPersistentData().putDouble("EffectCount2", ((entity.getPersistentData().getDouble("EffectCount2")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 3)) {
-			entity.getPersistentData().putDouble("EffectCount3", 200);
+			entity.getPersistentData().putDouble("EffectCount3", 201);
 		} else {
 			entity.getPersistentData().putDouble("EffectCount3", ((entity.getPersistentData().getDouble("EffectCount3")) - 1));
 		}
 		if (((entity.getPersistentData().getDouble("BaconMagic")) == 4)) {
-			entity.getPersistentData().putDouble("EffectCount4", 200);
+			entity.getPersistentData().putDouble("EffectCount4", 201);
 		} else {
 			entity.getPersistentData().putDouble("EffectCount4", ((entity.getPersistentData().getDouble("EffectCount4")) - 1));
 		}
