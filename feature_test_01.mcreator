@@ -677,6 +677,16 @@
         "ec": true
       },
       "path": "~/Equipment"
+    },
+    {
+      "name": "Cookedturkey",
+      "type": "food",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookedturkey",
+      "path": "~/Meterials"
     }
   ],
   "variable_elements": [
@@ -749,7 +759,8 @@
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
       "item.feature_test_01.crystlizedgoldarmor_armor_boots": "Crystlized gold Boots",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
-      "item.minecraft.potion.effect.splintereffect": "Splinter_effect"
+      "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
+      "item.feature_test_01.cookedturkey": "Cooked Turkey"
     }
   },
   "foldersRoot": {
