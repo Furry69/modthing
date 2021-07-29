@@ -23,7 +23,7 @@ public class TurkeyRenderer {
 					renderManager -> new MobRenderer(renderManager, new ChickenModel(), 0.5f) {
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("feature_test_01:textures/chicken.png");
+							return new ResourceLocation("feature_test_01:textures/turkey.png");
 						}
 					});
 		}
