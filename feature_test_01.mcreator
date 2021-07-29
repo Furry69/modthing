@@ -554,6 +554,10 @@
       {
         "name": "Crafting",
         "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
       }
     ]
   },
