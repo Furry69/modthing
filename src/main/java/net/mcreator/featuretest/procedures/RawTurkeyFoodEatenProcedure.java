@@ -28,7 +28,7 @@ public class RawTurkeyFoodEatenProcedure extends FeatureTest01ModElements.ModEle
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 200, (int) 1));
 		}
-		if (((entity.getPersistentData().getDouble("TurkeyHunger")) > 8)) {
+		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 8)) {
 			entity.getPersistentData().putDouble("TurkeyHunger", 0);
 		}
 		if (((entity.getPersistentData().getDouble("TurkeyHunger")) == 8)) {
