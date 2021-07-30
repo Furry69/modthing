@@ -1,11 +1,35 @@
 package net.mcreator.featuretest.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.GameType;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.ILivingEntityData;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.featuretest.entity.HellHoundEntity;
+import net.mcreator.featuretest.FeatureTest01ModElements;
+import net.mcreator.featuretest.FeatureTest01Mod;
+
+import java.util.Map;
+
 @FeatureTest01ModElements.ModElement.Tag
 public class HellHoundRightClickedOnEntityProcedure extends FeatureTest01ModElements.ModElement {
-
 	public HellHoundRightClickedOnEntityProcedure(FeatureTest01ModElements instance) {
 		super(instance, 71);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -39,14 +63,12 @@ public class HellHoundRightClickedOnEntityProcedure extends FeatureTest01ModElem
 				FeatureTest01Mod.LOGGER.warn("Failed to load dependency world for procedure HellHoundRightClickedOnEntity!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.FIRE_CHARGE, (int) (1)).getItem())) {
 			if (!entity.world.isRemote())
@@ -55,11 +77,9 @@ public class HellHoundRightClickedOnEntityProcedure extends FeatureTest01ModElem
 				Entity entityToSpawn = new HellHoundEntity.CustomEntity(HellHoundEntity.entity, (World) world);
 				entityToSpawn.setLocationAndAngles(x, y, z, (float) 0, (float) 0);
 				entityToSpawn.setRenderYawOffset((float) 0);
-
 				if (entityToSpawn instanceof MobEntity)
 					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 							SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
-
 				world.addEntity(entityToSpawn);
 			}
 		}
@@ -88,7 +108,5 @@ public class HellHoundRightClickedOnEntityProcedure extends FeatureTest01ModElem
 				((TameableEntity) entity).setTamedBy((PlayerEntity) sourceentity);
 			}
 		}
-
 	}
-
 }
