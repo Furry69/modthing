@@ -62,7 +62,7 @@ public class LeechonastickItem extends FeatureTest01ModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("sourceentity", sourceentity);
+					$_dependencies.put("entity", entity);
 					EridiumLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
