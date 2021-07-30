@@ -47,9 +47,9 @@ public class UnstableenrichedironarmorBodyTickEventProcedure extends FeatureTest
 										.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
 								: ItemStack.EMPTY).getItem() == new ItemStack(UnstableenrichedironarmorItem.helmet, (int) (1)).getItem())))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 100, (int) 6, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 100, (int) 4, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 100, (int) 6, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 100, (int) 30, (false), (false)));
 		}
 	}
 

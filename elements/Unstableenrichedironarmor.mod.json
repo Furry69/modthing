@@ -10,6 +10,9 @@
     "textureLeggings": "unstable_enriched_leggings_img",
     "enableBoots": true,
     "textureBoots": "unstable_enriched_iron_boots_img",
+    "onBodyTick": {
+      "name": "UnstableenrichedironarmorBodyTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

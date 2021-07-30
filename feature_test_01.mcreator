@@ -33,7 +33,7 @@
       "name": "Eridiumblock",
       "type": "block",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "eridiumblock",

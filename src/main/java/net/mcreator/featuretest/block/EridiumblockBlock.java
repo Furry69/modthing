@@ -4,7 +4,6 @@ package net.mcreator.featuretest.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.World;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
@@ -18,7 +17,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
@@ -26,13 +24,10 @@ import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.featuretest.procedures.EridiumLivingEntityIsHitWithItemProcedure;
 import net.mcreator.featuretest.item.EridiumItem;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @FeatureTest01ModElements.ModElement.Tag
@@ -89,19 +84,6 @@ public class EridiumblockBlock extends FeatureTest01ModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(EridiumItem.block, (int) (9)));
-		}
-
-		@Override
-		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
-			super.onEntityWalk(world, pos, entity);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("sourceentity", sourceentity);
-				EridiumLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
-			}
 		}
 	}
 }
