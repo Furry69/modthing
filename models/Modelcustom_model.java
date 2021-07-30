@@ -66,8 +66,8 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 		tail_r1 = new ModelRenderer(this);
 		tail_r1.setRotationPoint(-1.0F, 12.0F, -10.0F);
 		tail.addChild(tail_r1);
-		setRotationAngle(tail_r1, 0.3927F, 0.0F, 0.0F);
-		tail_r1.setTextureOffset(9, 18).addBox(-1.0F, -8.0F, 11.0F, 2.0F, 7.0F, 2.0F, 0.0F, false);
+		setRotationAngle(tail_r1, 2.5744F, 0.0F, 0.0F);
+		tail_r1.setTextureOffset(9, 18).addBox(-1.0F, 12.0F, -3.0F, 2.0F, 7.0F, 2.0F, 0.0F, false);
 	}
 
 	@Override

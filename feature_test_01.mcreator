@@ -956,8 +956,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Equipment"
+      }
     },
     {
       "name": "BloodSticksLivingEntityIsHitWithItem",
@@ -974,8 +973,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Meterials"
+      }
     },
     {
       "name": "BloodSticks",
@@ -1042,8 +1040,27 @@
             "type": "world"
           }
         ]
-      },
+      }
+    },
+    {
+      "name": "Leach",
+      "type": "mob",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leach",
       "path": "~/Mobs"
+    },
+    {
+      "name": "CookingBacon",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_bacon",
+      "path": "~/Crafting"
     },
     {
       "name": "Leechonastick",
@@ -1173,8 +1190,7 @@
       "block.feature_test_01.blood_wood_wood": "BloodWood Wood",
       "block.feature_test_01.blood_wood_slab": "BloodWood Slab",
       "block.feature_test_01.blood_wood_fence_gate": "BloodWood Fence Gate",
-      "item.feature_test_01.cookedturkey": "Cooked Turkey",
-      "item.feature_test_01.leechonastick": "Leechonastick"
+      "item.feature_test_01.cookedturkey": "Cooked Turkey"
     }
   },
   "foldersRoot": {
