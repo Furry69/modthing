@@ -12,7 +12,7 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -1082,6 +1082,23 @@
       "ids": {},
       "registry_name": "leechonastickrecipie",
       "path": "~/Crafting"
+    },
+    {
+      "name": "UnstableenrichedironarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unstableenrichedironarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [

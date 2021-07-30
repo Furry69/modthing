@@ -99,7 +99,7 @@ public class EridiumblockBlock extends FeatureTest01ModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				EridiumLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 			}
 		}
