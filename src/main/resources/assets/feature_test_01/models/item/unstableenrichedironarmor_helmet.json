@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "feature_test_01:items/enriched_iron_helm_img"
+    "layer0": "feature_test_01:items/unstable_enriched_iron_helm_img"
   }
 }
