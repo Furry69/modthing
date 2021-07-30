@@ -33,7 +33,7 @@
       "name": "Eridiumblock",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "eridiumblock",
@@ -1100,8 +1100,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Meterials"
+      }
     }
   ],
   "variable_elements": [

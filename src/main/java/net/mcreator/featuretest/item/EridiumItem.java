@@ -87,7 +87,7 @@ public class EridiumItem extends FeatureTest01ModElements.ModElement {
 			World world = entity.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				EridiumLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
