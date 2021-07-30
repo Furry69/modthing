@@ -50,7 +50,6 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.featuretest.entity.renderer.Iceenemy01Renderer;
@@ -240,12 +239,12 @@ public class Iceenemy01Entity extends FeatureTest01ModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(Blocks.OAK_LOG, (int) (1));
+			return new ItemStack(Items.ARROW, (int) (1));
 		}
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(Blocks.OAK_LOG, (int) (1));
+			return new ItemStack(Items.ARROW, (int) (1));
 		}
 	}
 }

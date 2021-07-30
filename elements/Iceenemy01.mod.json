@@ -106,7 +106,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": {
-      "value": "Blocks.LOG"
+      "value": "Items.ARROW"
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
