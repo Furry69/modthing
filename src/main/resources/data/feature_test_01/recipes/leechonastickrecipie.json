@@ -1,0 +1,19 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "feature_test_01:throwableleech"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "feature_test_01:leechonastick",
+    "count": 1
+  }
+}

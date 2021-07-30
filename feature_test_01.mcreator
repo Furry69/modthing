@@ -1040,8 +1040,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Mobs"
+      }
     },
     {
       "name": "Leach",
@@ -1061,6 +1060,26 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cooking_bacon",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Leechonastick",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leechonastick",
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Leechonastickrecipie",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leechonastickrecipie",
       "path": "~/Crafting"
     }
   ],
@@ -1110,7 +1129,6 @@
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
-      "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "item.minecraft.tipped_arrow.effect.splintereffect": "Arrow of Splinter_effect",
@@ -1140,7 +1158,6 @@
       "item.feature_test_01.enrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "block.feature_test_01.blood_wood_log": "BloodWood Log",
       "item.feature_test_01.eridium": "Eridium",
-      "item.feature_test_01.leach_spawn_egg": "Leach Spawn Egg",
       "item.feature_test_01.boomjavelin": "Unstable enriched iron javelin",
       "entity.feature_test_01.turkey": "Turkey",
       "item.feature_test_01.raw_bacon": "Raw Bacon",
