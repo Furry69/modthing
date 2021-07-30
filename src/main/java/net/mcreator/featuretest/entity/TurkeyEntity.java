@@ -131,11 +131,11 @@ public class TurkeyEntity extends FeatureTest01ModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false));
-			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
+			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(3, new SwimGoal(this));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(6, new BreedGoal(this, 1));
 			this.goalSelector.addGoal(7, new FollowParentGoal(this, 0.8));
 		}
