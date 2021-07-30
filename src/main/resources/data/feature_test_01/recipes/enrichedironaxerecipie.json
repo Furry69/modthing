@@ -14,13 +14,13 @@
       "item": "feature_test_01:enrichediron"
     },
     "2": {
-      "item": "minecraft:stick"
+      "item": "feature_test_01:blood_sticks"
     },
     "3": {
       "item": "feature_test_01:enrichediron"
     },
     "4": {
-      "item": "minecraft:stick"
+      "item": "feature_test_01:blood_sticks"
     }
   },
   "result": {

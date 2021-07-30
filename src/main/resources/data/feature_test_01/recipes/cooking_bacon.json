@@ -1,0 +1,12 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "feature_test_01:raw_bacon"
+  },
+  "result": {
+    "item": "feature_test_01:cooked_bacon"
+  }
+}
