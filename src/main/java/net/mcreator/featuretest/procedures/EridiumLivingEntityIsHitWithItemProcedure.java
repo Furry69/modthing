@@ -17,13 +17,13 @@ public class EridiumLivingEntityIsHitWithItemProcedure extends FeatureTest01ModE
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("sourceentity") == null) {
-			if (!dependencies.containsKey("sourceentity"))
-				FeatureTest01Mod.LOGGER.warn("Failed to load dependency sourceentity for procedure EridiumLivingEntityIsHitWithItem!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				FeatureTest01Mod.LOGGER.warn("Failed to load dependency entity for procedure EridiumLivingEntityIsHitWithItem!");
 			return;
 		}
-		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-		if (sourceentity instanceof LivingEntity)
-			((LivingEntity) sourceentity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 100, (int) 1));
+		Entity entity = (Entity) dependencies.get("entity");
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 100, (int) 1));
 	}
 }
