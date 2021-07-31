@@ -902,16 +902,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodStairsRecipe",
-      "type": "recipe",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_stairs_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodSlabRecipe",
       "type": "recipe",
       "sortid": 65,
@@ -1128,7 +1118,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Equipment"
     },
     {
       "name": "Bambooblowgun",
@@ -1159,6 +1150,16 @@
       "ids": {},
       "registry_name": "blowgunrecipie",
       "path": "~/Crafting"
+    },
+    {
+      "name": "Congealedbloodblock",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congealedbloodblock",
+      "path": "~/Meterials/Bloodwood"
     }
   ],
   "variable_elements": [
@@ -1199,14 +1200,14 @@
     "en_us": {
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
-      "item.feature_test_01.throwableleech": "Throwableleech",
-      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
+      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
+      "item.feature_test_01.throwableleech": "Throwableleech",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
+      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
@@ -1233,6 +1234,7 @@
       "item.feature_test_01.enrichedironarmor_boots": "Crystlized gold Boots",
       "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
       "item.feature_test_01.enrichedironarmor_leggings": "Crystlized gold Leggings",
+      "block.feature_test_01.congealedbloodblock": "Congealedbloodblock",
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
       "item.feature_test_01.enrichedironarmor_chestplate": "Crystlized gold Chestplate",
       "block.feature_test_01.blood_wood_log": "BloodWood Log",

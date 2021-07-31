@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "feature_test_01:blocks/congealed_blood_block_03_img",
+    "up": "feature_test_01:blocks/congealed_blood_block_02_img",
+    "north": "feature_test_01:blocks/congealed_block_01_img",
+    "east": "feature_test_01:blocks/congealed_block_01_img",
+    "south": "feature_test_01:blocks/congealed_block_01_img",
+    "west": "feature_test_01:blocks/congealed_block_01_img",
+    "particle": "feature_test_01:blocks/congealed_blood_block_03_img"
+  }
+}
