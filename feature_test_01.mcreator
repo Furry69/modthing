@@ -1190,6 +1190,16 @@
       "ids": {},
       "registry_name": "order_crystal",
       "path": "~/Meterials"
+    },
+    {
+      "name": "Ordercrystalrecipie",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ordercrystalrecipie",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [
@@ -1230,14 +1240,14 @@
     "en_us": {
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
-      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
-      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.feature_test_01.throwableleech": "Throwableleech",
+      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
+      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
+      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",

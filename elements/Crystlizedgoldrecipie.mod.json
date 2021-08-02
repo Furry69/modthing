@@ -2,16 +2,19 @@
   "_fv": 18,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
-    "xpReward": 1.0,
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smeltingInputStack": {
+    "smithingInputStack": {
       "value": "CUSTOM:Rawcrystlizedgold"
     },
-    "smeltingReturnStack": {
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:OrderCrystal"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:Crystlizedgoldingot"
     },
     "name": "crystlizedgoldrecipie",

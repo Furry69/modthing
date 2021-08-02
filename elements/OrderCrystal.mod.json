@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "null_img",
+    "texture": "order_crystal_01",
     "textureTop": "",
-    "textureLeft": "outer_null",
+    "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",

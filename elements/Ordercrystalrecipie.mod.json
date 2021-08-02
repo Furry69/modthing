@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Gemdust"
       },
       {
-        "value": "CUSTOM:Enrichediron"
+        "value": "CUSTOM:BloodWoodLog"
       },
       {
-        "value": "CUSTOM:Enrichediron"
+        "value": "CUSTOM:Gemdust"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BloodWoodLog"
       },
       {
-        "value": "CUSTOM:BloodSticks"
+        "value": "CUSTOM:Eridiumblock"
       },
       {
-        "value": "CUSTOM:Enrichediron"
+        "value": "CUSTOM:BloodWoodLog"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Gemdust"
       },
       {
-        "value": "CUSTOM:BloodSticks"
+        "value": "CUSTOM:BloodWoodLog"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Gemdust"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Enrichedironaxe"
+      "value": "CUSTOM:OrderCrystal"
     },
-    "name": "enrichedironaxerecipie",
+    "name": "ordercrystalrecipie",
     "namespace": "mod"
   }
 }

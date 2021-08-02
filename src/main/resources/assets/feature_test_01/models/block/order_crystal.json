@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "feature_test_01:blocks/null_img",
-    "up": "feature_test_01:blocks/null_img",
-    "north": "feature_test_01:blocks/null_img",
-    "east": "feature_test_01:blocks/outer_null",
-    "south": "feature_test_01:blocks/null_img",
-    "west": "feature_test_01:blocks/null_img",
-    "particle": "feature_test_01:blocks/null_img"
+    "down": "feature_test_01:blocks/order_crystal_01",
+    "up": "feature_test_01:blocks/order_crystal_01",
+    "north": "feature_test_01:blocks/order_crystal_01",
+    "east": "feature_test_01:blocks/order_crystal_01",
+    "south": "feature_test_01:blocks/order_crystal_01",
+    "west": "feature_test_01:blocks/order_crystal_01",
+    "particle": "feature_test_01:blocks/order_crystal_01"
   }
 }
