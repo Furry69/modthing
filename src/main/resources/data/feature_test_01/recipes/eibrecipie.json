@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "feature_test_01:unstableenrichedironarmor_boots"
+  },
+  "addition": {
+    "item": "feature_test_01:order_crystal"
+  },
+  "result": {
+    "item": "feature_test_01:enrichedironarmor_boots"
+  }
+}
