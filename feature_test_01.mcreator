@@ -902,16 +902,6 @@
       "path": "~/Meterials/Bloodwood"
     },
     {
-      "name": "BloodWoodSlabRecipe",
-      "type": "recipe",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_wood_slab_recipe",
-      "path": "~/Meterials/Bloodwood"
-    },
-    {
       "name": "BloodWoodStickRecipe",
       "type": "recipe",
       "sortid": 68,
@@ -1160,6 +1150,46 @@
       "ids": {},
       "registry_name": "congealedbloodblock",
       "path": "~/Meterials/Bloodwood"
+    },
+    {
+      "name": "OrderCrystalEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "order_crystal_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Meterials"
+    },
+    {
+      "name": "OrderCrystal",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "order_crystal",
+      "path": "~/Meterials"
     }
   ],
   "variable_elements": [
@@ -1249,6 +1279,7 @@
       "item.minecraft.splash_potion.effect.splintereffect": "Splash Splinter_effect",
       "item.feature_test_01.blood_sticks": "Blood Sticks",
       "item.feature_test_01.blowdartbase": "Weakening_blowdart",
+      "block.feature_test_01.order_crystal": "Order Crystal",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "effect.eridiumeffect": "Eridiumeffect",

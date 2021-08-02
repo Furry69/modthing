@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "feature_test_01:blocks/null_img",
+    "up": "feature_test_01:blocks/null_img",
+    "north": "feature_test_01:blocks/null_img",
+    "east": "feature_test_01:blocks/outer_null",
+    "south": "feature_test_01:blocks/null_img",
+    "west": "feature_test_01:blocks/null_img",
+    "particle": "feature_test_01:blocks/null_img"
+  }
+}
