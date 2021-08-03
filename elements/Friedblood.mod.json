@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "fried_blood_img",
+    "customModelName": "Normal",
+    "name": "Friedblood",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BattleBorn"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 2,
+    "saturation": 1.0,
+    "eatingSpeed": 30,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "FriedbloodFoodEaten"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "feature_test_01:blocks/cracking_ice_img",
+    "up": "feature_test_01:blocks/cracking_ice_img",
+    "north": "feature_test_01:blocks/cracking_ice_img",
+    "east": "feature_test_01:blocks/cracking_ice_img",
+    "south": "feature_test_01:blocks/cracking_ice_img",
+    "west": "feature_test_01:blocks/cracking_ice_img",
+    "particle": "feature_test_01:blocks/cracking_ice_img"
+  }
+}

@@ -107,6 +107,7 @@ public class OrderCrystalBlock extends FeatureTest01ModElements.ModElement {
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				OrderCrystalEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -123,6 +124,7 @@ public class OrderCrystalBlock extends FeatureTest01ModElements.ModElement {
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				OrderCrystalEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
 			}
 		}

@@ -1176,6 +1176,10 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1346,6 +1350,144 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "battle_born"
+    },
+    {
+      "name": "CrackingiceEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crackingice_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Meterials"
+    },
+    {
+      "name": "Crackingice",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crackingice",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "Crackingiceloottable",
+      "type": "loottable",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crackingiceloottable",
+      "path": "~/Meterials"
+    },
+    {
+      "name": "CongealedbloodballBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congealedbloodball_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "CongealedbloodballRangedItemUsed",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congealedbloodball_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Congealedbloodball",
+      "type": "gun",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congealedbloodball",
+      "path": "~/Equipment"
+    },
+    {
+      "name": "FriedbloodFoodEaten",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "friedblood_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "Friedblood",
+      "type": "food",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "friedblood",
+      "path": "~/Food"
+    },
+    {
+      "name": "Friedbloodrecipie",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "friedbloodrecipie",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [
@@ -1407,6 +1549,7 @@
       "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
       "block.feature_test_01.blood_wood_leaves": "BloodWood Leaves",
       "item.feature_test_01.turbo": "Turbo",
+      "item.feature_test_01.congealedbloodball": "Congealedbloodball",
       "block.feature_test_01.blood_wood_planks": "BloodWood Planks",
       "entity.feature_test_01.hell_hound": "Hell Hound",
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
@@ -1422,6 +1565,7 @@
       "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
       "item.feature_test_01.enrichedironarmor_boots": "Crystlized gold Boots",
       "item.feature_test_01.crystlized_gold_tools_axe": "Crystlized_gold_tools Axe",
+      "item.feature_test_01.friedblood": "Friedblood",
       "item.feature_test_01.enrichedironarmor_leggings": "Crystlized gold Leggings",
       "block.feature_test_01.congealedbloodblock": "Congealedbloodblock",
       "item.feature_test_01.enrichedironshovel": "Enriched iron pickaxe",
@@ -1441,6 +1585,7 @@
       "block.feature_test_01.order_crystal": "Order Crystal",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
       "itemGroup.tabbattle_born": "Battle Born",
+      "block.feature_test_01.crackingice": "Crackingice",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "effect.eridiumeffect": "Eridiumeffect",
       "item.feature_test_01.bambooblowgun": "Bambooblowgun",
