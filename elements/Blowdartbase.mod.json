@@ -8,7 +8,7 @@
     "name": "Weakening_blowdart",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BattleBorn"
     },
     "stackSize": 64,
     "enchantability": 0,

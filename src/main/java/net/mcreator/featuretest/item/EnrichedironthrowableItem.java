@@ -21,7 +21,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -35,6 +34,7 @@ import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.featuretest.procedures.EnrichedironthrowableRangedItemUsedProcedure;
 import net.mcreator.featuretest.procedures.EnrichedironthrowableBulletHitsBlockProcedure;
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.entity.renderer.EnrichedironthrowableRenderer;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
@@ -62,7 +62,7 @@ public class EnrichedironthrowableItem extends FeatureTest01ModElements.ModEleme
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(16));
+			super(new Item.Properties().group(BattleBornItemGroup.tab).maxStackSize(16));
 			setRegistryName("enrichedironthrowable");
 		}
 

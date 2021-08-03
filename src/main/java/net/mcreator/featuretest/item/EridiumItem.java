@@ -10,7 +10,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
@@ -18,6 +17,7 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.featuretest.procedures.EridiumRightClickedInAirProcedure;
 import net.mcreator.featuretest.procedures.EridiumLivingEntityIsHitWithItemProcedure;
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
 import java.util.Map;
@@ -37,7 +37,7 @@ public class EridiumItem extends FeatureTest01ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.RARE));
+			super(new Item.Properties().group(BattleBornItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
 			setRegistryName("eridium");
 		}
 

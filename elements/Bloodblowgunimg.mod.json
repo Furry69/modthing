@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "blood_blowgun_img",
+    "customModelName": "Normal",
+    "name": "Blood blowgun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BattleBorn"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Blowdartbase"
+    },
+    "shootConstantly": false,
+    "usageCount": 128,
+    "actionSound": {
+      "value": "block.bone_block.hit"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Blowdartbase"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

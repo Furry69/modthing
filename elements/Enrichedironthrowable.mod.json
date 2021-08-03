@@ -11,7 +11,7 @@
       "might hurt user"
     ],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:BattleBorn"
     },
     "stackSize": 16,
     "ammoItem": {

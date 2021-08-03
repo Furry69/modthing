@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -19,6 +18,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.featuretest.procedures.UnstableenrichedironarmorBodyTickEventProcedure;
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
 import java.util.Map;
@@ -82,14 +82,14 @@ public class UnstableenrichedironarmorItem extends FeatureTest01ModElements.ModE
 				return 0.5f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(BattleBornItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "feature_test_01:textures/models/armor/unstable_enriched_armor_img_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
 						+ ".png";
 			}
 		}.setRegistryName("unstableenrichedironarmor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BattleBornItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "feature_test_01:textures/models/armor/unstable_enriched_armor_img_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
@@ -108,14 +108,14 @@ public class UnstableenrichedironarmorItem extends FeatureTest01ModElements.ModE
 				}
 			}
 		}.setRegistryName("unstableenrichedironarmor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BattleBornItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "feature_test_01:textures/models/armor/unstable_enriched_armor_img_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
 						+ ".png";
 			}
 		}.setRegistryName("unstableenrichedironarmor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BattleBornItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "feature_test_01:textures/models/armor/unstable_enriched_armor_img_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")

@@ -1280,6 +1280,72 @@
       "ids": {},
       "registry_name": "ueibrecipie",
       "path": "~/Crafting"
+    },
+    {
+      "name": "Turbo",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turbo",
+      "path": "~/Equipment"
+    },
+    {
+      "name": "TurboItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turbo_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Bloodblowgunimg",
+      "type": "gun",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodblowgunimg",
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Bloodblowgun",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodblowgun",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Battlebornicon",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battlebornicon"
+    },
+    {
+      "name": "BattleBorn",
+      "type": "tab",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battle_born"
     }
   ],
   "variable_elements": [
@@ -1320,14 +1386,15 @@
     "en_us": {
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
-      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
-      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.feature_test_01.throwableleech": "Throwableleech",
+      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
+      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
+      "item.feature_test_01.bloodblowgunimg": "Blood blowgun",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
+      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
@@ -1339,12 +1406,14 @@
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
       "item.feature_test_01.crystlizedgoldingot": "Crystlizedgoldingot",
       "block.feature_test_01.blood_wood_leaves": "BloodWood Leaves",
+      "item.feature_test_01.turbo": "Turbo",
       "block.feature_test_01.blood_wood_planks": "BloodWood Planks",
       "entity.feature_test_01.hell_hound": "Hell Hound",
       "item.minecraft.tipped_arrow.effect.eridiumeffect": "Arrow of Eridiumeffect",
       "block.feature_test_01.blood_wood_fence": "BloodWood Fence",
       "item.feature_test_01.turkey_spawn_egg": "Turkey Spawn Egg",
       "item.feature_test_01.cooked_bacon": "Cooked Bacon",
+      "item.feature_test_01.battlebornicon": "Battlebornicon",
       "item.feature_test_01.enrichedironarmor_helmet": "Crystlized gold Helmet",
       "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
       "block.feature_test_01.blood_wood_stairs": "BloodWood Stairs",
@@ -1371,6 +1440,7 @@
       "item.feature_test_01.blowdartbase": "Weakening_blowdart",
       "block.feature_test_01.order_crystal": "Order Crystal",
       "item.feature_test_01.enrichedironrod": "Enriched iron rod",
+      "itemGroup.tabbattle_born": "Battle Born",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
       "effect.eridiumeffect": "Eridiumeffect",
       "item.feature_test_01.bambooblowgun": "Bambooblowgun",

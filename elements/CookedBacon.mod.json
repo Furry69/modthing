@@ -9,7 +9,7 @@
     "rarity": "UNCOMMON",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:BattleBorn"
     },
     "stackSize": 64,
     "nutritionalValue": 8,

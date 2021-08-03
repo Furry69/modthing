@@ -14,7 +14,7 @@
       "name": "UnstableenrichedironarmorBodyTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:BattleBorn"
     },
     "armorTextureFile": "unstable_enriched_armor_img",
     "helmetName": "Crystlized gold Helmet",

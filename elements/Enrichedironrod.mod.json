@@ -8,7 +8,7 @@
     "name": "Enriched iron rod",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:BattleBorn"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:BattleBorn"
     },
     "destroyTool": "Not specified",
     "customDrop": {

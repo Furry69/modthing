@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "enriched_iron_boots_img",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:BattleBorn"
     },
     "armorTextureFile": "crystlizedgoldarmor",
     "helmetName": "Crystlized gold Helmet",

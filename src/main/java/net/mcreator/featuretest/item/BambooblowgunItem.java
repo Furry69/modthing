@@ -20,7 +20,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ShootableItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -31,6 +30,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.entity.renderer.BambooblowgunRenderer;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
@@ -55,7 +55,7 @@ public class BambooblowgunItem extends FeatureTest01ModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(128));
+			super(new Item.Properties().group(BattleBornItemGroup.tab).maxDamage(64));
 			setRegistryName("bambooblowgun");
 		}
 
