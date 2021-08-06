@@ -1,0 +1,13 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "feature_test_01:congealedbloodblock"
+    }
+  ],
+  "result": {
+    "item": "feature_test_01:congealedbloodball",
+    "count": 4
+  }
+}

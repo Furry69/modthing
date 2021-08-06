@@ -1488,6 +1488,104 @@
       "ids": {},
       "registry_name": "friedbloodrecipie",
       "path": "~/Crafting"
+    },
+    {
+      "name": "Bloodblockrecipie",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodblockrecipie",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Bloodballrecipie",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodballrecipie",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Teddysavedata",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teddysavedata",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Teddybearclick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teddybearclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Teddybear",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teddybear",
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [
@@ -1496,6 +1594,24 @@
       "type": "logic",
       "scope": "world",
       "value": "false"
+    },
+    {
+      "name": "Spawnx",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "Spawny",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "Spawnz",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1560,6 +1676,7 @@
       "item.feature_test_01.enrichedironarmor_helmet": "Crystlized gold Helmet",
       "item.minecraft.potion.effect.splintereffect": "Splinter_effect",
       "block.feature_test_01.blood_wood_stairs": "BloodWood Stairs",
+      "item.feature_test_01.teddybear": "Teddybear",
       "item.feature_test_01.gemdust": "Gemdust",
       "block.feature_test_01.eridiumblock": "Eridiam Block",
       "item.minecraft.splash_potion.effect.eridiumeffect": "Splash Eridiumeffect",
