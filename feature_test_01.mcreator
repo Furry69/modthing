@@ -1586,6 +1586,33 @@
       "ids": {},
       "registry_name": "teddybear",
       "path": "~/Equipment"
+    },
+    {
+      "name": "PerceptionfilterItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perceptionfilter_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perceptionfilter",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perceptionfilter",
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [
@@ -1644,15 +1671,15 @@
     "en_us": {
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
-      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
-      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.feature_test_01.throwableleech": "Throwableleech",
+      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
+      "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bloodblowgunimg": "Blood blowgun",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen Goliath Spawn Egg",
-      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "item.feature_test_01.enrichediron": "Enriched iron ingot",
+      "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
       "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
@@ -1704,6 +1731,7 @@
       "itemGroup.tabbattle_born": "Battle Born",
       "block.feature_test_01.crackingice": "Crackingice",
       "item.minecraft.lingering_potion.effect.eridiumeffect": "Lingering Eridiumeffect",
+      "item.feature_test_01.perceptionfilter": "Perceptionfilter",
       "effect.eridiumeffect": "Eridiumeffect",
       "item.feature_test_01.bambooblowgun": "Bambooblowgun",
       "item.feature_test_01.unstableenrichedironarmor_helmet": "Crystlized gold Helmet",
