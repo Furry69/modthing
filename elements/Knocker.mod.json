@@ -46,14 +46,14 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
-    "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
+    "attackStrength": 2,
+    "attackKnockback": 10.0,
+    "knockbackResistance": 0.8,
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 10,
-    "xpAmount": 0,
+    "xpAmount": 6,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -65,10 +65,10 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
-    "immuneToLightning": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
@@ -77,10 +77,10 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.IRON_INGOT"
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.iron_golem.repair"
     },
     "hurtSound": {
       "value": "entity.irongolem.hurt"
@@ -89,7 +89,7 @@
       "value": "entity.irongolem.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.irongolem.step"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -98,9 +98,15 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "onStruckByLightning": {
+      "name": "KnockerItIsStruckByLightning"
+    },
+    "whenMobIsHurt": {
+      "name": "KnockerEntityIsHurt"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"83\" y=\"38\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
