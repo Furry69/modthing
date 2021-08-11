@@ -1,0 +1,29 @@
+{
+  "group": "feature_test_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "1": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "2": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "3": {
+      "item": "feature_test_01:enrichediron"
+    },
+    "5": {
+      "item": "feature_test_01:enrichediron"
+    }
+  },
+  "result": {
+    "item": "feature_test_01:unstableenrichedironarmor_helmet",
+    "count": 1
+  }
+}

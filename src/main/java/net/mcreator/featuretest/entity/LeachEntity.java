@@ -87,11 +87,11 @@ public class LeachEntity extends FeatureTest01ModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
-			ammma = ammma.createMutableAttribute(ForgeMod.SWIM_SPEED.get(), 0.4);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
+			ammma = ammma.createMutableAttribute(ForgeMod.SWIM_SPEED.get(), 0.3);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -137,7 +137,7 @@ public class LeachEntity extends FeatureTest01ModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
 			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));

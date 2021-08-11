@@ -8,7 +8,7 @@
     "name": "Enriched iron axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BattleBorn"
     },
     "toolType": "Axe",
     "harvestLevel": 3,

@@ -1,0 +1,38 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "teddy_bear_img",
+    "customModelName": "Normal",
+    "name": "Teddybear",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:BattleBorn"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 10,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "\"no place like home\""
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 2,
+    "inventoryStackSize": 1,
+    "onRightClickedInAir": {
+      "name": "Teddybearclick"
+    }
+  }
+}

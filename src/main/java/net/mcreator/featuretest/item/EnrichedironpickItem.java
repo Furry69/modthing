@@ -9,12 +9,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.featuretest.procedures.EnrichedironpickLivingEntityIsHitWithToolProcedure;
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
 import java.util.Map;
@@ -54,7 +54,7 @@ public class EnrichedironpickItem extends FeatureTest01ModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(EnrichedironItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}, 1, -3f, new Item.Properties().group(BattleBornItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

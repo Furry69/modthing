@@ -8,7 +8,7 @@
     "name": "Throwableleech",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:BattleBorn"
     },
     "stackSize": 64,
     "ammoItem": {

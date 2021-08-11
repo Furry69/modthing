@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 6,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": "CUSTOM:BloodWoodPlanks"
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": "CUSTOM:BloodWoodPlanks"
+        "value": "CUSTOM:Enrichediron"
       },
       {
-        "value": "CUSTOM:BloodWoodPlanks"
+        "value": "CUSTOM:Enrichediron"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BloodWoodSlab"
+      "value": "CUSTOM:Unstableenrichedironarmor.body"
     },
-    "name": "blood_wood_slab_recipe",
+    "name": "ueicrecipie",
     "namespace": "mod"
   }
 }

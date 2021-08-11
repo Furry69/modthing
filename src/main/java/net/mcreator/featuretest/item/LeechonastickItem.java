@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.featuretest.procedures.EridiumLivingEntityIsHitWithItemProcedure;
+import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
 import java.util.Map;
@@ -52,7 +52,7 @@ public class LeechonastickItem extends FeatureTest01ModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(BattleBornItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -62,7 +62,7 @@ public class LeechonastickItem extends FeatureTest01ModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
+					$_dependencies.put("sourceentity", sourceentity);
 					EridiumLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 				}
 				return retval;

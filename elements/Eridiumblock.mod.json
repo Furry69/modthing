@@ -10,7 +10,7 @@
     "textureBack": "eridium_block_01",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 2,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -39,7 +39,7 @@
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:BattleBorn"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

@@ -8,7 +8,7 @@
     "name": "Crystlized_gold_tools Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BattleBorn"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

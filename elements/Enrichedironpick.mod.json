@@ -8,7 +8,7 @@
     "name": "Enriched iron pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BattleBorn"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,
