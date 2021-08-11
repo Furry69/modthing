@@ -48,6 +48,9 @@ public class FeatureTest01ModVariables {
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "feature_test_01_worldvars";
 		public boolean copper_input = false;
+		public double Spawnx = 0;
+		public double Spawny = 0;
+		public double Spawnz = 0;
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -59,11 +62,17 @@ public class FeatureTest01ModVariables {
 		@Override
 		public void read(CompoundNBT nbt) {
 			copper_input = nbt.getBoolean("copper_input");
+			Spawnx = nbt.getDouble("Spawnx");
+			Spawny = nbt.getDouble("Spawny");
+			Spawnz = nbt.getDouble("Spawnz");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putBoolean("copper_input", copper_input);
+			nbt.putDouble("Spawnx", Spawnx);
+			nbt.putDouble("Spawny", Spawny);
+			nbt.putDouble("Spawnz", Spawnz);
 			return nbt;
 		}
 
