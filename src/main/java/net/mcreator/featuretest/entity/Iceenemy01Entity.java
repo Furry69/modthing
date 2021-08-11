@@ -52,6 +52,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.featuretest.item.EnrichedironthrowableItem;
 import net.mcreator.featuretest.entity.renderer.Iceenemy01Renderer;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
@@ -117,8 +118,7 @@ public class Iceenemy01Entity extends FeatureTest01ModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.BOW, (int) (1)));
-			this.setItemStackToSlot(EquipmentSlotType.OFFHAND, new ItemStack(Items.BOW, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(EnrichedironthrowableItem.block, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(Items.CHAINMAIL_HELMET, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(Items.CHAINMAIL_CHESTPLATE, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(Items.CHAINMAIL_LEGGINGS, (int) (1)));
@@ -239,12 +239,12 @@ public class Iceenemy01Entity extends FeatureTest01ModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(Items.ARROW, (int) (1));
+			return new ItemStack(EnrichedironthrowableItem.block, (int) (1));
 		}
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(Items.ARROW, (int) (1));
+			return new ItemStack(EnrichedironthrowableItem.block, (int) (1));
 		}
 	}
 }

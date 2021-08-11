@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "mob",
   "definition": {
-    "mobName": "Frozen Goliath",
+    "mobName": "Frozen thrower",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "stray.png",
@@ -27,10 +27,10 @@
     "bossBarColor": "BLUE",
     "bossBarType": "NOTCHED_6",
     "equipmentMainHand": {
-      "value": "Items.BOW"
+      "value": "CUSTOM:Enrichedironthrowable"
     },
     "equipmentOffHand": {
-      "value": "Items.BOW"
+      "value": ""
     },
     "equipmentHelmet": {
       "value": "Items.CHAINMAIL_HELMET"
@@ -106,7 +106,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": {
-      "value": "Items.ARROW"
+      "value": "CUSTOM:Enrichedironthrowable"
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,

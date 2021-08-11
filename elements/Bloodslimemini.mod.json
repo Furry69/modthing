@@ -2,26 +2,26 @@
   "_fv": 18,
   "_type": "mob",
   "definition": {
-    "mobName": "Knocker",
+    "mobName": "Bloodslime",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "knocker.png",
+    "mobModelName": "Slime",
+    "mobModelTexture": "slime.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -11579569,
+      "value": -9305341,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -8825030,
+      "value": -1048576,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BattleBorn"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -46,14 +46,14 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 2,
-    "attackKnockback": 25.0,
-    "knockbackResistance": 0.8,
-    "movementSpeed": 0.3,
-    "armorBaseValue": 0.0,
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 1.0,
+    "armorBaseValue": 10.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 6,
+    "health": 4,
+    "xpAmount": 4,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -66,9 +66,9 @@
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": true,
-    "immuneToCactus": true,
+    "immuneToCactus": false,
     "immuneToDrowning": true,
-    "immuneToLightning": true,
+    "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
@@ -77,36 +77,30 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.IRON_INGOT"
+      "value": ""
     },
     "livingSound": {
-      "value": "entity.iron_golem.repair"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.irongolem.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.irongolem.death"
+      "value": "entity.generic.death"
     },
     "stepSound": {
-      "value": "entity.irongolem.step"
+      "value": ""
     },
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "DRIP_LAVA"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "onStruckByLightning": {
-      "name": "KnockerItIsStruckByLightning"
-    },
-    "whenMobIsHurt": {
-      "name": "KnockerEntityIsHurt"
-    },
+    "particleAmount": 1,
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"83\" y=\"38\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -120,8 +114,8 @@
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 8,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": true
   }
 }
