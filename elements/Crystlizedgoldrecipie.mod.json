@@ -2,19 +2,16 @@
   "_fv": 18,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smithing",
-    "xpReward": 0.0,
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smithingInputStack": {
+    "blastingInputStack": {
       "value": "CUSTOM:Rawcrystlizedgold"
     },
-    "smithingInputAdditionStack": {
-      "value": "CUSTOM:OrderCrystal"
-    },
-    "smithingReturnStack": {
+    "blastingReturnStack": {
       "value": "CUSTOM:Crystlizedgoldingot"
     },
     "name": "crystlizedgoldrecipie",
