@@ -1718,6 +1718,177 @@
       "ids": {},
       "registry_name": "battletowerboss",
       "path": "~/Mobs"
+    },
+    {
+      "name": "BattletowerbossThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battletowerboss_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "BtiFloor1",
+      "type": "loottable",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_1",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor2",
+      "type": "loottable",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_2",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor3",
+      "type": "loottable",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_3",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor4",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_4",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor5",
+      "type": "loottable",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_5",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor6",
+      "type": "loottable",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_6",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "BtiFloor7",
+      "type": "loottable",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bti_floor_7",
+      "path": "~/structures/BattleTowerIce"
+    },
+    {
+      "name": "Crossfiretunnelloottable",
+      "type": "loottable",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crossfiretunnelloottable",
+      "path": "~/structures/crossfire_tunnel"
+    },
+    {
+      "name": "CateyeItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cateye_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "CateyeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cateye_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Cateye",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cateye",
+      "path": "~/Equipment"
+    },
+    {
+      "name": "Crossfiretunnel",
+      "type": "structure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crossfiretunnel",
+      "path": "~/structures/crossfire_tunnel"
+    },
+    {
+      "name": "PerceptionfilterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perceptionfilter_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1776,16 +1947,16 @@
     "en_us": {
       "item.feature_test_01.rawcrystlizedgold": "Rawcrystlizedgold",
       "item.feature_test_01.crystlized_gold_tools_shovel": "Crystlized_gold_tools Shovel",
-      "item.feature_test_01.throwableleech": "Throwableleech",
-      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
       "item.minecraft.lingering_potion.effect.splintereffect": "Lingering Splinter_effect",
+      "item.feature_test_01.unstableenrichedironarmor_leggings": "Crystlized gold Leggings",
+      "item.feature_test_01.throwableleech": "Throwableleech",
       "item.feature_test_01.enrichedironpick": "Enriched iron pickaxe",
       "item.feature_test_01.bloodblowgunimg": "Blood blowgun",
       "item.feature_test_01.bds": "Big Crystalized Gold Sword",
       "entity.feature_test_01.knocker": "Knocker",
       "item.feature_test_01.iceenemy_01_spawn_egg": "Frozen thrower Spawn Egg",
-      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "item.feature_test_01.crystlized_gold_tools_pickaxe": "Crystlized_gold_tools Pickaxe",
+      "item.feature_test_01.enrichediron": "Enriched iron ingot",
       "entity.feature_test_01.leach": "Leach",
       "item.feature_test_01.enrichedironthrowable": "Enriched iron javelin",
       "item.feature_test_01.unstableenrichedironarmor_chestplate": "Crystlized gold Chestplate",
@@ -1794,6 +1965,7 @@
       "entity.feature_test_01.bloodslimemini": "Bloodslime",
       "effect.splintereffect": "Splinter_effect",
       "item.minecraft.potion.effect.eridiumeffect": "Eridiumeffect",
+      "item.feature_test_01.cateye": "Cateye",
       "item.feature_test_01.symphonicbeatingstick": "Symphonicbeatingstick",
       "entity.feature_test_01.iceenemy_01": "Frozen thrower",
       "item.feature_test_01.enrichedironaxe": "Enriched iron axe",
@@ -1862,6 +2034,10 @@
         "children": [
           {
             "name": "BattleTowerIce",
+            "children": []
+          },
+          {
+            "name": "crossfire_tunnel",
             "children": []
           }
         ]

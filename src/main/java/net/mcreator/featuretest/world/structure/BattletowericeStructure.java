@@ -99,6 +99,8 @@ public class BattletowericeStructure extends FeatureTest01ModElements.ModElement
 			biomeCriteria = true;
 		if (new ResourceLocation("frozen_ocean").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("snowy_beach").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);

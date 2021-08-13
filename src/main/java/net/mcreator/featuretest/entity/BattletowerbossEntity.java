@@ -33,13 +33,18 @@ import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.featuretest.procedures.BattletowerbossThisEntityKillsAnotherOneProcedure;
 import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.item.FreezingbattleaxeItem;
 import net.mcreator.featuretest.entity.renderer.BattletowerbossRenderer;
 import net.mcreator.featuretest.FeatureTest01ModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @FeatureTest01ModElements.ModElement.Tag
 public class BattletowerbossEntity extends FeatureTest01ModElements.ModElement {
@@ -112,6 +117,11 @@ public class BattletowerbossEntity extends FeatureTest01ModElements.ModElement {
 			return false;
 		}
 
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(FreezingbattleaxeItem.block, (int) (1)));
+		}
+
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.water.ambient"));
@@ -140,6 +150,20 @@ public class BattletowerbossEntity extends FeatureTest01ModElements.ModElement {
 			if (source.isExplosion())
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+			super.awardKillScore(entity, score, damageSource);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("sourceentity", sourceentity);
+				BattletowerbossThisEntityKillsAnotherOneProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

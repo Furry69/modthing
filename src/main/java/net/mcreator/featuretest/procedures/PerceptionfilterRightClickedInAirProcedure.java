@@ -11,22 +11,21 @@ import net.mcreator.featuretest.FeatureTest01Mod;
 import java.util.Map;
 
 @FeatureTest01ModElements.ModElement.Tag
-public class FreezingbattleaxeLivingEntityIsHitWithToolProcedure extends FeatureTest01ModElements.ModElement {
-	public FreezingbattleaxeLivingEntityIsHitWithToolProcedure(FeatureTest01ModElements instance) {
-		super(instance, 109);
+public class PerceptionfilterRightClickedInAirProcedure extends FeatureTest01ModElements.ModElement {
+	public PerceptionfilterRightClickedInAirProcedure(FeatureTest01ModElements instance) {
+		super(instance, 122);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				FeatureTest01Mod.LOGGER.warn("Failed to load dependency entity for procedure FreezingbattleaxeLivingEntityIsHitWithTool!");
+				FeatureTest01Mod.LOGGER.warn("Failed to load dependency entity for procedure PerceptionfilterRightClickedInAir!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 1200, (int) 1));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 1));
-		System.out.println("it work");
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 60, (int) 10));
 	}
 }

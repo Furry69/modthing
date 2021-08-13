@@ -28,6 +28,9 @@
       },
       {
         "value": "frozen_ocean"
+      },
+      {
+        "value": "cold_beach"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"

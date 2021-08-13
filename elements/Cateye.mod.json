@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "perception_filter_img",
+    "texture": "cat_eye_img",
     "customModelName": "Normal",
-    "name": "Perceptionfilter",
-    "rarity": "COMMON",
+    "name": "Cateye",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:BattleBorn"
     },
@@ -27,10 +27,10 @@
     "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "inventorySize": 1,
     "inventoryStackSize": 1,
     "onRightClickedInAir": {
-      "name": "PerceptionfilterRightClickedInAir"
+      "name": "CateyeRightClickedInAir"
     }
   }
 }

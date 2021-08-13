@@ -32,7 +32,7 @@ public class FreezingbattleaxeItem extends FeatureTest01ModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1500;
+				return 1300;
 			}
 
 			public float getEfficiency() {
@@ -40,7 +40,7 @@ public class FreezingbattleaxeItem extends FeatureTest01ModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 10f;
+				return 12f;
 			}
 
 			public int getHarvestLevel() {

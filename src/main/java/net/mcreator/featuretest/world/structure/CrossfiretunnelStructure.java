@@ -34,11 +34,11 @@ import net.mcreator.featuretest.FeatureTest01ModElements;
 import java.util.Random;
 
 @FeatureTest01ModElements.ModElement.Tag
-public class Teststructure01Structure extends FeatureTest01ModElements.ModElement {
+public class CrossfiretunnelStructure extends FeatureTest01ModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
-	public Teststructure01Structure(FeatureTest01ModElements instance) {
-		super(instance, 6);
+	public CrossfiretunnelStructure(FeatureTest01ModElements instance) {
+		super(instance, 121);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,13 +56,13 @@ public class Teststructure01Structure extends FeatureTest01ModElements.ModElemen
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 10000) {
+					if ((random.nextInt(1000000) + 1) <= 5000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
 							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-							j -= 1;
+							j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
 							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
@@ -70,7 +70,7 @@ public class Teststructure01Structure extends FeatureTest01ModElements.ModElemen
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("feature_test_01", "green_top"));
+									.getTemplateDefaulted(new ResourceLocation("feature_test_01", "cft"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -84,12 +84,12 @@ public class Teststructure01Structure extends FeatureTest01ModElements.ModElemen
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("teststructure_01"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("feature_test_01:teststructure_01"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("crossfiretunnel"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("feature_test_01:crossfiretunnel"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);
+		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_STRUCTURES).add(() -> configuredFeature);
 	}
 }

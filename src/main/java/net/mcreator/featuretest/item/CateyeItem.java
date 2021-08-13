@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.featuretest.procedures.PerceptionfilterRightClickedInAirProcedure;
+import net.mcreator.featuretest.procedures.CateyeRightClickedInAirProcedure;
 import net.mcreator.featuretest.itemgroup.BattleBornItemGroup;
 import net.mcreator.featuretest.FeatureTest01ModElements;
 
@@ -20,11 +20,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @FeatureTest01ModElements.ModElement.Tag
-public class PerceptionfilterItem extends FeatureTest01ModElements.ModElement {
-	@ObjectHolder("feature_test_01:perceptionfilter")
+public class CateyeItem extends FeatureTest01ModElements.ModElement {
+	@ObjectHolder("feature_test_01:cateye")
 	public static final Item block = null;
-	public PerceptionfilterItem(FeatureTest01ModElements instance) {
-		super(instance, 105);
+	public CateyeItem(FeatureTest01ModElements instance) {
+		super(instance, 119);
 	}
 
 	@Override
@@ -33,8 +33,8 @@ public class PerceptionfilterItem extends FeatureTest01ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(BattleBornItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("perceptionfilter");
+			super(new Item.Properties().group(BattleBornItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+			setRegistryName("cateye");
 		}
 
 		@Override
@@ -62,7 +62,7 @@ public class PerceptionfilterItem extends FeatureTest01ModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				PerceptionfilterRightClickedInAirProcedure.executeProcedure($_dependencies);
+				CateyeRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
